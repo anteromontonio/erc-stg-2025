@@ -1,0 +1,9 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'erc2025_B2_montero.blg'
+[40] biber-darwin:340> INFO - === Fri Oct  4, 2024, 11:10:03
+[49] Biber.pm:419> INFO - Reading 'erc2025_B2_montero.bcf'
+[98] Biber.pm:979> INFO - Found 47 citekeys in bib section 0
+[106] Biber.pm:4419> INFO - Processing section 0
+[111] Biber.pm:4610> INFO - Looking for bibtex file 'erc.bib' for section 0
+[125] bibtex.pm:1713> INFO - LaTeX decoding ...
+[399] bibtex.pm:1519> INFO - Found BibTeX data source 'erc.bib'

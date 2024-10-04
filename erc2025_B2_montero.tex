@@ -1,0 +1,473 @@
+\documentclass[a4paper,12pt,english]{article}
+\usepackage[compact]{titlesec}
+\usepackage[hang,flushmargin,stable]{footmisc}
+\usepackage[top=1.5cm, bottom=1.5cm, left=2cm, right=2cm, headheight=0.7cm, headsep=.4cm]{geometry}
+% \usepackage[nohyperlinks,nolist]{acronym}
+\usepackage[T1]{fontenc}
+% \usepackage{newtxtext}
+\usepackage[usenames,dvipsnames,table]{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts,amsmath,amssymb,amsthm}
+% \usepackage{amsaddr}
+\usepackage{babel}
+\usepackage{array}
+% \usepackage{booktabs}
+\usepackage{csquotes}
+\usepackage{enumitem}
+\setlist{noitemsep,topsep=5pt,parsep=5pt,partopsep=0pt}
+\usepackage{eurosym}
+\usepackage{fancybox}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{lineno}
+\usepackage{lmodern}
+\usepackage{lscape}
+\usepackage{makecell}
+\usepackage{marginnote}
+\usepackage{multirow}
+\usepackage{pgfgantt}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepgfplotslibrary{polar}
+\pgfplotsset{compat=1.12}
+\usepackage{pifont}
+% \usepackage{sectsty}
+\usepackage{sidecap}
+\usepackage{soul} % for smarter (word-wrapping) underlining
+\setul{1pt}{.4pt} % 1pt below contents
+\usepackage{wrapfig}
+\usepackage{xspace}
+
+% HotFix from http://tex.stackexchange.com/a/300259/84485
+% Version1 of titlesec is not compatible with the latest texlive.
+% Either the titlesec package must be updated, or the following HotFix used:
+\usepackage{etoolbox}
+% \makeatletter
+% \patchcmd{\ttlh@hang}{\parindent\z@}{\parindent\z@\leavevmode}{}{}
+% \patchcmd{\ttlh@hang}{\noindent}{}{}{}
+% \makeatother
+
+% Fonts
+% \usepackage{libertine}
+% \usepackage{gillius2}
+% \usepackage[libertine]{newtxmath}
+
+
+% Size
+% \headheight=14pt
+% \setlength{\parindent}{20pt}
+\titleformat*{\section}{\large\bfseries}
+\titleformat*{\subsection}{\normalsize\bfseries}
+\titleformat*{\subsubsection}{\normalsize\bfseries}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\baselinestretch}{1.0}
+% \renewcommand{\maketitlehooka}{\sffamily\bfseries\raggedright\color{royalblue}}
+
+
+
+% Spacing
+% \usepackage{xpatch}
+% \makeatletter
+% \xpatchcmd{\paragraph}{3.25ex \@plus1ex \@minus.2ex}{2pt plus 1pt minus 1pt}{\typeout{success!}}{\typeout{failure!}}
+% \makeatother
+\titlespacing*{\section}{0pt}{ 1cm plus .2cm minus .2cm}{1em}
+\titlespacing*{\subsection}{0pt}{ 1cm plus .2cm minus .2cm}{1em}
+\titlespacing*{\subsubsection}{0pt}{ 1cm plus .2cm minus .2cm}{1em}
+
+
+% Color
+\definecolor{royalblue}{RGB}{56,115,178}
+% \allsectionsfont{\sffamily\bfseries\raggedright\color{royalblue}}
+% \allsectionsfont{\bfseries\raggedright\color{royalblue}}
+% \let\oldfootnotesize\footnotesize
+% \newcommand{\highlight}[1]{\colorbox{gray!15}{\small{#1}}}
+% \newcommand{\marginLeft}[1]{\reversemarginpar\marginnote{\rotatebox{90}{\sffamily\bfseries\color{royalblue}{\phantom{j}#1}}}}
+% \newcommand{\marginRight}[1]{\normalmarginpar\hspace{0pt}\marginpar{\rotatebox{0}{\sffamily\color{gray}\normalsize{#1}}}}
+% \newcommand\colorrule{\vspace{2px}{\color{royalblue}\hrule}\vspace{2px}}
+
+% Bibliography
+
+\usepackage[%
+sorting=nyt, %
+backend=biber, %
+style=numeric,%
+defernumbers=true,%
+% sorting=ydnt,%
+url=false,%
+eprint=false,%
+giveninits=true,
+maxbibnames=9,%
+% doi=false,%
+isbn=false,%
+sortcites = true,%
+citestyle=numeric-comp,
+]{biblatex}
+
+
+
+\newcommand{\maincolumnwidth}{0.84\textwidth}
+\newcommand{\separatorcolumnwidth}{0.04\textwidth}
+\newcommand{\hintscolumnwidth}{0.15\textwidth}
+
+\newcommand*{\cvitem}[3][.25em]{%
+  \noindent \begin{tabular}{@{}p{\hintscolumnwidth}@{\hspace{\separatorcolumnwidth}}p{\maincolumnwidth}@{}}%
+    \raggedleft{#2} &{#3}%
+  \end{tabular}%
+  \par
+  %\addvspace{#1}
+  }
+
+
+\newcommand*{\cventry}[7][.25em]{%
+  \cvitem[#1]{#2}{%
+    {\bfseries#3}%
+    \ifthenelse{\equal{#4}{}}{}{, {\slshape#4}}%
+    \ifthenelse{\equal{#5}{}}{}{, #5}%
+    \ifthenelse{\equal{#6}{}}{}{, #6}%
+    .\strut%
+    \ifx&#7&%
+    \else{\newline{}\begin{minipage}[t]{\linewidth}\small#7\end{minipage}}\fi}}
+
+
+% \AtEveryBibitem{\vspace{-1mm}}
+% \AtBeginBibliography{\small}
+% \AtBeginBibliography{\footnotesize}
+% \AtBeginBibliography{\scriptsize}
+
+
+\addbibresource{erc.bib}
+
+% \renewcommand{ \cite}{\footfullcite}
+
+%tables
+\usepackage{tabularx}
+\newcolumntype{C}{>{\centering\arraybackslash}X}%
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}%
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}%
+% \newcolumntype{M}{>{\centering\arraybackslash$\displaystyle}X<{$}}
+
+
+\newcolumntype{\ll}[1]{>{\hsize=#1\hsize\raggedright\arraybackslash}X}%
+\newcolumntype{\rr}[1]{>{\hsize=#1\hsize\raggedleft\arraybackslash}X}%
+\newcolumntype{\cc}[1]{>{\hsize=#1\hsize\centering\arraybackslash}X}%
+
+
+
+\input{authorCmd}
+\input{authorThm}
+
+\usepackage[capitalize, nameinlink]{cleveref}
+\Crefname{problem}{Problem}{Problems}
+\Crefname{conj}{Conjecture}{Conjectures}
+\Crefname{obj}{Research objective}{Research objectives}
+
+
+\hypersetup{
+    pdftitle={ERC Starting grang 2025 - Part B1 - \acr - Montero},    % title
+    pdfauthor={Antonio Montero},
+    colorlinks=true,
+    citecolor=royalblue,
+    linkcolor=royalblue,
+    urlcolor=royalblue
+  }
+
+% To correctly align fancy headers.
+% Courtesy of: http://tex.stackexchange.com/a/88136/84485
+\makeatletter
+\newcommand{\resetHeadWidth}{\f@nch@setoffs}
+\makeatother
+
+% Headers and Footers - specify Abrr and ProjectCode
+\pagestyle{fancy}
+\fancyhead[L]{\color{gray}\textit{Montero}}
+\fancyhead[C]{\color{gray}{Part B2}}
+\fancyhead[R]{\color{gray}{\acr}}
+\fancyfoot{}
+% \fancyfoot[L]{\small \color{gray}{Teaching Statement }}
+% \fancyfoot[C]{\small \color{gray}{ \thepage~/~ \pageref*{sec:textend}}}
+\fancyfoot[C]{\small \color{gray}{ \thepage}}
+\resetHeadWidth
+
+
+\makeatletter
+    \providecommand\@dotsep{5}
+\makeatother
+
+
+\begin{document}
+
+\title{ \textbf{\large {ERC Starting Grant 2025} \\ \large Part B2  }}
+%%
+%% Now edit the following to give your name and address: (AMSart)
+%%
+
+\author{%
+% { \color{gray}
+% Antonio Montero
+% %firstAurhot
+% % Joen Doe%
+% \thanks{antonio.montero@fmf.uni-lj.si} \\ %
+% {\color{gray} Faculty of Mathematics and Physics }\\ \color{gray} University of Ljubljana,\\ \color{gray} Jadranska 19 1000 Ljubljana, Slovenia
+% % Magic Department\thanks{I am no longer a member of this department}, %
+% % Richard Miles University %
+}
+\date{}
+% }
+% \author{}
+% \address{Faculty of Mathematics and Physics (FMF), University of Ljubljana, SI-1000 Ljubljana, Slovenia}
+% \email{antonio.montero@fmf.uni-lj.si}
+
+\maketitle
+\thispagestyle{fancy}
+
+\section*{Section a. State-of-the-art and objectives}
+
+\subsection*{Motivation and background}
+
+There are fundamental differences between the standard scientific method and the method of mathematical research.
+In essence, the scientific method is founded upon the observation of natural phenomena and the measurement of physical quantities.
+These are then used to pose hypotheses, which are then tested against cleverly designed experiments.
+In this way, many false hypotheses can be quickly rejected,
+while those that survive these tests are eventually recognised as laws of nature.
+Conversely, in theoretical mathematics, there is frequently a paucity of initial data upon which hypotheses can be formulated.
+% the development of theoretical mathematical knowledge requires the formulation  and formal proof of hypotheses.
+The process of mathematical research thus typically commences with an abstract concept, which may be based on intuition and a limited number of illustrative examples. 
+These ideas eventually evolve to conjectures.
+However, in contrast to the natural sciences, experimental methodology is absent in many mathematical disciplines, making it challenging to validate conjectures through empirical evidence.
+As we all know too well, this frequently results in significant time investment in attempts to disprove erroneous conjectures, hours that could be spent on proving theorems instead.
+
+Mathematicians are so used to this way of conducting research that the possibility of using experimental data is often overlooked even when available or not too difficult to obtain.
+% This is why we consider the construction of explicit and manageable interesting examples to be one of the most important lines of research in mathematics.
+% In the last few years, with the development of computers, running experiments and computing large datasets of mathematical objects has opened up new opportunities in mathematical research.
+This is why we consider the construction of explicit and manageable interesting examples to be one of the most important lines of research in mathematics.
+In recent years, with the development of computers, the ability to run experiments and compute large datasets of mathematical objects has opened up new possibilities in mathematical research.
+% That is why we strongly believe that the theoretical part of constructing polytopes should be accompanied by a computational counterpart that allow us to overcome some of the difficulties expressed above.
+
+Of our particular interest is to build objects with a large degree of mathematical symmetry.
+The notion of symmetry is naturally present in almost any scientific discipline. 
+Noether's First Theorem \cite{Noether1918_InvarianteVariationsprobleme} links conservation laws in physical systems with the presence of certain degree of symmetries. 
+This result is nowadays regarded as a breakthrough contribution to modern theoretical physics (see \cite{KosmaSchwa2011_NoetherTheoremsInvariance}).
+The notion of \emph{chirality}, first introduced by Lord Kelvin \cite{Kelvin1894_MolecularTacticsCrystal}, describes the property of a molecule that cannot be superposed by rigid movements to its mirror image \cite{McNauWilki1997_CompendiumChemicalTerminology}. 
+In this case the (lack of) symmetry properties impose different chemical behaviour (see \cite{JaffAltMer1964_AntipyridoxineEffectPenicillamine}, for example).
+
+% While sciences focus each to the consequences of the presence or absence of symmetries, in mathematics we study the phenomenon in arguably its purest essence. 
+While each science focus on the consequences of the presence or absence of symmetries, in mathematics we study the phenomenon in arguably its purest essence. 
+This is usually controlled by the action of a certain group of transformations that respect the global structure, often called \emph{automorphisms}. 
+An object is often considering symmetric if it has a \emph{rich} automorphism group; this notion of \emph{richness} might be present in the form of having a large automorphism group or admitting such a group acting in a specific way (for example, transitively) on the atomic parts of the mathematical object. 
+
+Sometimes the presence of symmetry impose conditions on the structural on the mathematical object. For example, the Euclidean or hyperbolic spaces are often called \emph{homogeneous} because the group of corresponding automorphisms (isometries) act transitively on the set of points of the space. In other words, no point is particularly special with respect to the others. 
+On the other hand, sometimes structural properties of the objects impose restrictions on the presence of symmetry. Classical results in this direction are those obtained by Hurwitz \cite{Hurwitz1892_UeberAlgebraischeGebilde} to bound the order of the automorphism group of a compact Riemann surface or those by Tutte \cite{Tutte1959_SymmetryCubicGraphs} where the order of the automorphism group of an arc-transitive cubic graphs is bounded.
+
+In general, when studying symmetries from a mathematical perspective we are interested in the following questions
+
+\begin{problem}\label{prob:symmetry}
+  How symmetrical a given mathematical object can be?; what are the  structural properties imposed by high degree of symmetry? what are the possible \emph{symmetry types} of a family of objects? are all those symmetry types achievable?
+\end{problem}
+
+The core ideas of this proposal pose the questions presented in \cref{prob:symmetry} in the context of highly symmetric abstract polytopes. Our research approach is inspired by the firsts paragraphs of this introduction and relies on the construction of datasets of such objects (explained in detail below).
+
+\subsection*{Highly symmetric polytopes and related objects}
+
+Abstract polytopes are combinatorial objects that generalise (the face lattice) of convex polytopes.
+Enumeration and classification of highly symmetric convex polytopes goes all the way to the Greeks and the classical problem of classifying what today we know as \emph{Platonic Solids}, to the beginning of last century when the classification of higher dimensional convex polytopes was achieved.
+By considering combinatorial objects and hence removing the geometric constraints, often imposed by the ambient space, the possibilities for constructions of highly symmetric abstract polytopes are now wide open, and a complete classification problem becomes unattainable and rather turns into a series of construction and enumeration problems of families with particular characteristics.
+
+This aligns with our research approach presented above and motivates our deepest mathematical interests: developing combinatorial constructions of abstract polytopes with prescribed combinatorial properties.
+
+
+% \subsection{Combinatorial constructions of abstract polytopes}\label{sec:constructions}
+
+
+
+The degree of symmetry of a polytope can be measured by the number of orbits of its automorphism group on certain substructures called \emph{flags}.
+This combinatorial way of measuring symmetry usually agrees with the classical geometrical notion (see \cite{DuVal1964_HomographiesQuaternionsRotations,Coxeter1973_RegularPolytopes,Coxeter1991_RegularComplexPolytopes}, for example).
+\emph{Regular polytopes} are those that are flag-transitive, meaning they have exactly $1$ flag-orbit.
+This \emph{symmetry type} of polytopes has been traditionally the most studied one and includes classical examples as Platonic solids and regular tilings of Euclidean and Hyperbolic spaces.
+A slightly less symmetric class of polytopes is that of \emph{$2$-orbit polytopes} and among those, \emph{chiral polytopes} are the most studied.
+The notion of chirality is a classical one in other natural sciences, notably in Chemistry.
+However, in the context of abstract polytopes, a chiral polytope is one that admits maximal degree of combinatorial rotations but that do not admit mirror reflections.
+
+Chiral polytopes are just one of $2^{n}-1$ possible symmetry types of $2$-orbit $n$-polytopes.
+Classical examples of some of the other classes of the $2$-orbit polytopes are known.
+However, the general problem of determining if for every pair $(n,T)$ with $n>3$ and $T$ a $2$-orbit symmetry type  exists an $n$-polytope of symmetry type $T$ remains open.
+Some examples of maniplexes (a slightly more general class of objects) were build very recently \cite{PellPotTol2019_ExistenceResultTwo}, but whether or not they are polytopal remains unknown.
+
+The \emph{symmetry type graph (STG)} of a polytope the coloured graph resulting from the quotient of the flag graph  of the polytope by its automorphism group
+\cite{CunDelHuTo2015_SymmetryTypeGraphs}.
+This graph has one vertex for each flag-orbit and its connections show the local arrangement of the flag orbits. Premaniplexes (see \cite{HubaMocMon2023_VoltageOperationsManiplexes,HubarMocha2023_AllPolytopesAre}) are properly edge coloured graphs that satisfy certain (natural) conditions so that, when connected, become the most natural candidate to be the symmetry graph of a polytope, in the sense that every STG of a $k$-orbit polytope is a connected premaniplex with $k$ vertices.
+Determining weather or not there exist polytopes or maniplexes with a given symmetry types is a relevant problem on the theory that has shown to be extremely difficult even for the simplest cases.
+However, we are brave to pose the following conjecture and our firsts research objective.
+
+\begin{conj}\label{conj:STG}
+  For every $n$-premaniplex $\cT$ there exist an abstract polytope $\cP$ such that the symmetry type graph of $\cP$ is isomorphic to $\cT$.
+\end{conj}
+
+% And of course this conjecture outlines our first research objective.
+
+\begin{obj}\label{obj:STG}
+  Prove \cref{conj:STG}.
+\end{obj}
+
+Of course \cref{obj:STG} is very ambitious and even partial results towards its solution, such as, for example, building examples for interesting families of connected premaniplexes would be of great interest.
+
+In \cite{HubaMocMon2023_VoltageOperationsManiplexes} we propose the approach of operations as a way of constructing $k$-orbit maniplexes. 
+That is, the use of \emph{voltage operations}. 
+Voltage operations are a graph theoretical (hence combinatorial) generalization of many of the classical geometrical operation to polytopes and related objects.
+This is an ongoing project that should give us at least a second publication \cite{HubaMocMon_SymmetriesVoltageOperations_preprint}, but more importantly, that opens the possibilities for a new research path, which outlines the following research objective.
+
+\begin{obj} \label{obj:operations}
+  Classify the symmetry type graphs that can be obtained from applying a voltage operation to a regular maniplex (polytope).
+\end{obj}
+
+In \cite[Thm 5.1]{HubaMocMon2023_VoltageOperationsManiplexes} we proved that if $\cO$ is the operation associated to the voltage operator $(\cY,\eta)$ and $\cP$ is a regular polytope, then the symmetry type graph of $\cO(\cP)$ is a quotient of $\cY$.
+However, this quotient can be trivial, in other words, it is possible that $\cO(\cP)$ has extra symmetry.
+The problem of understanding this additional symmetry is the main topic of the ongoing manuscript \cite{HubaMocMon_SymmetriesVoltageOperations_preprint} and it should be a step towards \cref{obj:operations}.
+
+A slightly different approach to build polytopes is that of extensions. An $(n+1)$-polytope $\cP$ is an \emph{extension} of an $n$-polytope $\cK$ if all the facets of $\cP$ are isomorphic to $\cK$.
+
+Every polytope $\cK$ admits a \emph{trivial extension} $\left\{ \cK, 2 \right\} $ with exactly $2$ facets.
+The problem of determining the existence of extensions for polytopes becomes more interesting when symmetry conditions are prescribed over the potential extension $\cP$, which in turn impose symmetry conditions of over $\cK$.
+If $\cP$ is regular, then $\cK$ must also be regular.
+This situation has been explored deeply and several papers have appear on the topic 
+(see \cite{Pellicer2010_ExtensionsDuallyBipartite,Pellicer2009_ExtensionsRegularPolytopes,Schulte1985_ExtensionsRegularComplexes,Schulte1983_ArrangingRegularIncidence,Schulte1990_ClassAbstractPolytopes, Danzer1984_RegularIncidenceComplexes}, for example)
+If $\cP$ is chiral, then $\cK$ must be either regular or chiral with regular facets.
+In the latter situation universal \cite{SchulWeiss1995_FreeExtensionsChiral} and finite \cite{CunniPelli2014_ChiralExtensionsChiral,Montero2021_SchlaefliSymbolChiral} constructions are known. However, if $\cK$ is regular little is known on the problem of determining whether or not $\cK$ admits a chiral extension.
+In \cite{Cunningham2017_NonFlatRegular} Cunningham has proved that if $\cK$ is $(1,n-1)$-flat then $\cK$ does not admit a chiral extension.
+Polytopes satisfying this condition are considered somehow degenerate.
+On the other extreme, as a consequence of a result announced by Conder in 2018, it is known that if $\cK$ is the $n$-dimensional simplex, then $\cK$ admits a chiral extension.
+In my dissertation \cite{Montero2019_ChiralExtensionsToroids_PhDThesis} if $n$ es even, all but finitely many regular tessellations of the $n$-dimensional torus admit a chiral extensions.
+As part of an ongoing project with Toledo we extend this result to all possible values of $n$, which outlines the results of our forthcoming manuscript \cite{MonteToled_ChiralExtensionsRegular_preprint}.
+There is a need of building examples of chiral polytopes and the extensions approach naturally attacks this problem, that is why it becomes part of my research objectives.
+
+
+\begin{obj}\label{obj:chiralExt}
+  Explore the problem of constructing chiral extensions of regular polytopes.
+\end{obj}
+
+As mentioned above, chiral polytopes are just one of  $2^{n}-1$ possible symmetry types of $2$-orbit $n$-polytopes.
+Each symmetry type are in correspondence with a proper subset $I$ of $\left\{ 0, \dots, n-1 \right\} $ defined by the property that $i \in I$ if and only if any two $i$-adjacent flags are on the same orbit.
+The symmetry type is known in the literature as \emph{class $2_{I}$ } (see \cite{PellPotTol2019_ExistenceResultTwo,Matteo2016_TwoOrbitConvex,Hubard2010_TwoOrbitPolyhedra}), being chiral  the class $2_{\emptyset}$.
+If $I \neq \{0, \dots, n-2\}$, then a polytope in class $2_{I} $ is facet-transitive hence it makes explore the extension problem: given $\cK$ an $n$-polytope, does $\cK$ admit an extension in class $2_{I}$ for $I \neq \left\{ 0, \dots, n-1 \right\} $ (note the shift on the rank).
+An obvious necessary condition is that $\cK$ must be either regular of in class $2_{I\sm\left\{ n-1  \right\}}$.
+Many of the questions explored chiral extensions have their analogues for extensions in class $2_{I}$.
+This outlines our following research objective.
+
+\begin{obj}\label{obj:2_I}
+  Explore the theory of extensions of $n$-polytopes in class $2_{I}$ for $I \neq \left\{ 0, \dots, n-1 \right\} $.
+\end{obj}
+
+The  $I=\left\{ 0, \dots, n-1 \right\} $ is in correspondence with the problem of constructing \emph{semiregular alternating polytopes} (see \cite{MonsoSchul2022_InterlacingNumberAlternating,MonsoSchul2020_UniversalAlternatingSemiregular,MonsoSchul2019_AssemblyProblemAlternating,MonsoSchul2012_SemiregularPolytopesAmalgamated}).
+These polytopes have two different types of regular facets and several open problems on constructions are known.
+Many of those problems are analogous to the extension problem and therefore of my serious interest.
+Those problems outline my research objective.
+
+\begin{obj}\label{obj:semiregular}
+  Classify the triplets $(\cP, \cQ, k)$ with $\cP$ and $\cQ$ regular $n$-polytopes and $k \geq 2$ such that there exists a semiregular alternating polytope with facets isomorphic to $\cP$ and $\cQ$ and interlacing number $k$.
+\end{obj}
+
+\subsection*{Datasets of abstract polytopes} \label{sec:datasets}
+
+Theoretical constructions of abstract polytopes have lead to the constructions of some datasets of highly symmetric polytopes (see \cite{Conder2013_ChiralRotaryMaps,Conder2012_RegularNonOrientable,Conder2012_RotaryMapsOn,Conder2012_RegularPolytopes2000,Conder2011_RegularOrientableMaps,Conder2006_ChiralOrientablyRegular,Potocnik2014_CensusChiralMaps,Potocnik2014_CensusChiralMaps,LeLaCoMiMu_AtlasPolytopesSmall,HartHubLee_AtlasChiralPolytopes,Hartley2006_AtlasSmallChiral,Hartley2006_AtlasSmallRegular}).
+The existing datasets of polytopes suffer of the following restrictions
+\begin{enumerate}[label=\textit{(\roman*)}, noitemsep]
+  \item They are mainly focused on regular or chiral polytopes.
+  \item The size of the examples is very restrictive.
+  \item They often exhibit numerous examples of rank $3$ but the amount of examples of rank higher than $4$ drops dramatically.
+  \item They are not very user-friendly, either because they exist only as raw data or because the are specific-programming language oriented.
+\end{enumerate}
+
+In  \cref{tab:percentage} we show the proportion of examples according to ranks on the existing datasets of polytopes with examples of rank higher than $3$.
+
+
+% \begin{center}
+\begin{table}
+\centering
+		\begin{tabularx}{0.7\textwidth}{|\ll{1.5}|\cc{.5}|\cc{.5}|\cc{.5}|}
+		\hline
+		Dataset & Rank $3$ & Rank $4$ & Rank $\geq 5$ \\ \hline
+		Hartley - Regular &
+			64.55\%	& 31.61\%	& 3.84\% \\
+		Hartley - Chiral &
+			85.71\% &	14.29\% &	0.00\% \\
+		Conder - Regular&
+			61.51\% &	34.70\% &	3.79\% \\
+		Conder - Chiral &
+			87.01\% &	12.87\% &	0.12\% \\
+		Leemans - Regular&
+			95.35\% &	4.37\% &	0.30\% \\
+		Leemans - Chiral &
+			87.82\% &	11.97\% &	0.21\% \\ \hline
+		\end{tabularx}
+		\caption{Percentages of examples according to rank}\label{tab:percentage}
+\end{table}
+%   \end{center}
+
+There are two obvious gaps that need to be pushed forward, not necessarily in an independent way, on the process of building new datasets of abstract polytopes: finding examples of higher ranks and building sets that consider different types of symmetries (besides chiral or regular).
+With the emerging development of theoretical results for less symmetric polytopes and the need to identify patterns and to find new constructions to attack the numerous open problems related to the existence of polytopes (such as those mentioned in \cref{sec:constructions}), it is clear that building new datasets of polytopes that overturn the restrictions mentioned above would not only be beneficial but it is almost necessary.
+The problematic expressed above outlines the following research objective.
+
+\begin{obj}\label{obj:datasets}
+  Extend the existing and build new datasets of abstract polytopes and related structures with particular focus on
+  \begin{enumerate}[label=\textit{(\roman*)}, noitemsep]
+    \item Building examples on ranks higher than $3$
+    \item Exploring different symmetry types.
+  \end{enumerate}
+\end{obj}
+
+Many of the first datasets of abstract polytopes are based on the (small) size of the objects.
+Either by taking advantage of previously computed objects (such as the library \smallgrp{}) or by using computational routines that, because of their own nature are limited by the size of the input (such as  \lins).
+However, it has been shown that the size of the smallest regular polytope of rank $n$ grows exponentially with $n$ \cite{Conder2013_SmallestRegularPolytopes}, while the size of the smallest chiral $n$-polytope is at least of factorial growth with respect to $n$ \cite{Cunningham2017_NonFlatRegular}.
+This explains why the amount of examples of higher rank polytopes drops dramatically in the current available datasets.
+
+Another pressing issue to address is that the existent datasets of highly symmetric maps and polytopes are not only limited on size, rank and symmetry type, but they are practically not used.
+One of the reasons behind it is that the information in most of these data sets is not very user-friendly.
+Even the small amount of existing datasets have been developed by several people, mostly in an independent way, using different notation and different computer algebra systems.
+% This usually stops a researcher to use a given data set just because he or she might not be familiar with the notation or programming language.
+Moreover, many of these datasets exist only as raw text which is not always easy to consult.
+% However, we could use the fact the the amount of data is not huge in our advantage.
+This motivates our next research objective.
+
+\begin{obj}\label{obj:publish}
+% \color{magenta}
+% I would change this objective more in the spirit:
+Develop standards and a platform for storing and presenting the datasets of abstract polytopes
+ (both new and existing) in a unified and user-friendly way, complying with the FAIR principles ((\cite{BercKohRab2020_DeepFairMathematics,WDAAABBBSB2016_FairGuidingPrinciples})). In particular:
+
+\begin{enumerate}[label=\textit{(\roman*)}]
+
+\item  Survey the existing datasets of abstract polytopes and related objects, with emphasis on the ways in which they are stored, documented and presented.
+\item
+Identify the strengths and weaknesses of the existing datasets and propose unified standards for presentation, management and stewardship of the
+datasets of abstract polytopes, following FAIR guideline principles.
+% \color{black}
+\item Build a web-based and user-friendly interface to datasets of abstract polytopes stored in accordance with the proposed standards.
+
+\end{enumerate}
+\end{obj}
+
+The nature of \cref{obj:datasets} and \cref{obj:publish} involves a two-way flow of knowledge connecting them with the research objectives presented in \cref{sec:constructions}:
+With the aim of generating new datasets of highly symmetric polytopes and related objects, we will develop new theoretical results and methods, enabling us to devise new algorithms and combinatorial representation for constructing highly symmetric abstract polytopes.
+The algorithms will then be carefully implemented and executed.
+The obtained datasets will then be analysed with the aim of finding interesting patterns, suggesting new conjectures and proposing new directions for further research. This general idea represented in \cref{fig:idea}.
+
+
+\clearpage
+\section*{Section b. Methodology}
+
+
+
+
+
+\printbibliography
+
+
+
+
+
+
+% \label{sec:textend}
+ 
+
+\end{document}

@@ -1,0 +1,109 @@
+%% Improved versions of \newcommand-like comands 
+\usepackage{xargs}
+
+%Better lookin latex
+\renewcommand{\leq}{\leqslant} %
+\renewcommand{\geq}{\geqslant}
+\renewcommand{\epsilon}{\varepsilon} %
+\renewcommand{\subset}{\subseteq} %
+\renewcommand{\supset}{\supseteq} %
+\renewcommand{\subsetneq}{\varsubsetneq}
+\renewcommand{\{}{\lbrace}
+\renewcommand{\}}{\rbrace}
+\newcommand{\sm}{\setminus} 
+% \renewcommand{\qedsymbol}{$\blacksquare$} 
+\renewcommand{\bar}{\overline}
+%\renewcommand{\hat}{\widehat}
+\renewcommand{\restriction}{\mathord{\upharpoonright}}
+% \newcommand{\iff}{\Leftrightarrow}
+
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+%letters
+\newcommand{\bE}{\mathbb{E}}
+\newcommand{\bN}{\mathbb{N}}
+\newcommand{\bR}{\mathbb{R}}
+\newcommand{\bZ}{\mathbb{Z}}
+
+
+\newcommand{\cF}{\mathcal{F}}
+\newcommand{\cG}{\mathcal{G}}
+\newcommand{\cH}{\mathcal{H}}
+\newcommand{\cK}{\mathcal{K}}
+\newcommand{\cM}{\mathcal{M}}
+\newcommand{\cN}{\mathcal{N}}
+\newcommand{\cO}{\mathcal{O}}
+\newcommand{\cP}{\mathcal{P}}
+\newcommand{\cQ}{\mathcal{Q}}
+\newcommand{\cS}{\mathcal{S}}
+\newcommand{\cT}{\mathcal{T}}
+\newcommand{\cU}{\mathcal{U}}
+\newcommand{\cX}{\mathcal{X}}
+\newcommand{\cY}{\mathcal{Y}}
+
+%toroids
+\newcommand{\LL}{\Lambda}
+\newcommand{\UoverLL}{\cU/\LL}
+\newcommand{\bLL}{\mathbf{\Lambda}}
+
+%vectors
+\newcommand{\cyvec}[1]{\bar{\mathrm{#1}}}
+\newcommand{\vx}{\cyvec{x}}
+\newcommand{\vy}{\cyvec{y}}
+\newcommand{\vz}{\cyvec{z}}
+\newcommand{\va}{\cyvec{a}}
+\newcommand{\ve}{\cyvec{e}}
+
+%groupelements
+\newcommand{\rr}{\varrho}
+\newcommand{\id}{\varepsilon}
+
+
+%operators
+\DeclareMathOperator{\lcm}{lcm}
+\DeclareMathOperator{\aut}{Aut} %example
+\DeclareMathOperator{\autp}{\aut^{+}}
+\DeclareMathOperator{\stab}{Stab}
+\DeclareMathOperator{\rk}{rk}
+\DeclareMathOperator{\cay}{Cay}
+\DeclareMathOperator{\GPR}{\mathcal{G}}
+\DeclareMathOperator{\fl}{\mathcal{F}}
+\DeclareMathOperator{\fw}{\mathcal{F}^{w}}
+\DeclareMathOperator{\con}{Con}
+\DeclareMathOperator{\conp}{\con^{+}}
+\DeclareMathOperator{\conw}{\con^{w}}
+% \DeclareMathOperator{\Hal}{H}
+% \DeclareMathOperator{\Hyp}{\cH}
+% \DeclareMathOperator{\semi}{\mathcal{S}}
+\newcommand{\mix}{\diamondsuit}
+% \newcommandx{\cay}[1][1=\cP]{\Cay(#1)}
+
+
+
+\newcommand{\vect}[1]{\bar{\mathrm{#1}}} 
+
+
+
+
+%2 to the polytope -like
+\newcommand{\twoSK}[1][\cK]{2s^{#1-1}}
+\newcommand{\dtwoSK}[1][\cK]{\hat{2}s^{#1-1}}
+\newcommand{\twoK}[1][\cK]{2^{#1}}
+\newcommand{\dtwoK}[1][\cK]{\hat{2}^{#1}}
+\newcommandx{\dtwoSM}[2][1=\cM, 2=s] {\hat{2}#2^{#1 - 1}}
+
+%For the paper
+\newcommandx{\gpr}[2][1=\cK, 2=s]{\GPR_{#2}(#1)}
+\newcommand{\baseFlag}{\Phi_{0}}
+\newcommandx{\Proot}[2][1=\cP, 2= \baseFlag, usedefault]{\left( #1,#2 \right)}
+
+
+\newcommand{\acr}{PolyData}
+
+\newcommand{\smallgrp}{\texttt{SmallGroups}}
+\newcommand{\lins}{\texttt{LowIndexNormalSubgroup}}
+%\DeclareMathOperator{\Aut}{Aut} %example
+
+%\newenvironment{name}{begindef}{endef}
+

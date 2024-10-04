@@ -1,0 +1,123 @@
+% \newcommand{\thmname}{}%
+\newcommand{\lemname}{}%
+\newcommand{\propname}{}%
+\newcommand{\coroname}{}%
+\newcommand{\defnname}{}%
+\newcommand{\egname}{}%
+\newcommand{\conjname}{}%
+\newcommand{\objname}{}%
+\newcommand{\notename}{}%
+\newcommand{\remname}{}%
+
+\theoremstyle{plain}
+\newtheorem{thm}{\protect\thmname}[section]
+\newtheorem{theorem}[thm]{\protect\thmname}
+\newtheorem{lem}[thm]{\protect\lemname}
+\newtheorem{lemma}[thm]{\protect\lemname}
+\newtheorem{prop}[thm]{\protect\propname}
+\newtheorem{proposition}[thm]{\protect\propname}
+\newtheorem{coro}[thm]{\protect\coroname}
+\newtheorem{corollary}[thm]{\protect\coroname}
+\newtheorem{conj}{Conjecture}
+
+\theoremstyle{definition}
+\newtheorem{defn}[thm]{\protect\defnname}
+\newtheorem{definition}[thm]{\protect\defnname}
+\newtheorem{eg}[thm]{\protect\egname}
+\newtheorem{exam}[thm]{\protect\egname}
+\newtheorem{example}[thm]{\protect\egname}
+\newtheorem{question}{Question}
+\newtheorem{problem}{Problem}
+\newtheorem{obj}{Research Objective}
+
+\theoremstyle{remark}
+\newtheorem{note}[thm]{\protect\notename}
+\newtheorem{rem}[thm]{\protect\remname}
+\newtheorem{remark}[thm]{\protect\remname}
+%%%
+
+\numberwithin{equation}{section}
+
+%%babel
+
+\addto\captionsenglish{%
+%redefinitionEN
+\renewcommand{\thmname}{Theorem}%
+\renewcommand{\lemname}{Lemma}%
+\renewcommand{\propname}{Proposition}%
+\renewcommand{\coroname}{Corollary}%
+\renewcommand{\defnname}{Definition}%
+\renewcommand{\egname}{Example}%
+\renewcommand{\conjname}{Conjecture}%
+\renewcommand{\objname}{Research Objective}%
+\renewcommand{\notename}{Note}%
+\renewcommand{\remname}{Remark}%
+}
+\addto\captionsspanish{%
+%redefinitionES
+\renewcommand{\thmname}{Teorema}%
+\renewcommand{\lemname}{Lema}%
+\renewcommand{\propname}{Proposición}%
+\renewcommand{\coroname}{Corolario}%
+\renewcommand{\defnname}{Definición}%
+\renewcommand{\egname}{Ejemplo}%
+\renewcommand{\conjname}{Conjetura}%
+\renewcommand{\objname}{Objetivo}%
+\renewcommand{\notename}{Nota}%
+\renewcommand{\remname}{Observación}%
+}
+
+%%%%%%%%%%backup
+% \theoremstyle{plain}
+% \newtheorem{thm}{Theorem}[section]
+% \newtheorem{theorem}[thm]{Theorem}
+% \newtheorem{lem}[thm]{Lemma}
+% \newtheorem{lemma}[thm]{Lemma}
+% \newtheorem{prop}[thm]{Proposition}
+% \newtheorem{proposition}[thm]{Proposition}
+% \newtheorem{coro}[thm]{Corollary}
+% \newtheorem{corollary}[thm]{Corollary}
+%
+% \theoremstyle{definition}
+% \newtheorem{defn}[thm]{Definition}
+% \newtheorem{definition}[thm]{Definition}
+% \newtheorem{eg}[thm]{Example}
+% \newtheorem{exam}[thm]{Example}
+% \newtheorem{example}[thm]{Example}
+%
+% \theoremstyle{remark}
+% \newtheorem{note}[thm]{Note}
+% \newtheorem{rem}[thm]{Remark}
+% \newtheorem{remark}[thm]{Remark}
+% %%%
+%
+% \numberwithin{equation}{section}
+%%backup
+
+%cleveref
+%these are hardly ever neccessary
+% \Crefname{thm}{Theorem}{Theorems}
+% \Crefname{theorem}{Theorem}{Theorems}
+% \Crefname{lem}{Lemma}{Lemmas}
+% \Crefname{lemma}{Lemma}{Lemmas}
+% \Crefname{prop}{Proposition}{Propositions}
+% \Crefname{proposition}{Proposition}{Propositions}
+% \Crefname{coro}{Corollary}{Corollaries}
+% \Crefname{corollary}{Corollary}{Corollaries}
+% \Crefname{defn}{Definition}{Definitions}
+% \Crefname{definition}{Definition}{Definitions}
+% \Crefname{exam}{Example}{Examples}
+% \Crefname{example}{Example}{Examples}
+% \Crefname{note}{Note}{Notes}
+% \Crefname{rem}{Remak}{Remarks}
+% \Crefname{remark}{Remak}{Remarks}
+
+%redefinitionES
+% \renewcommand{\thmname}{×}%
+% \renewcommand{\lemname}{×}%
+% \renewcommand{\propname}{×}%
+% \renewcommand{\coroname}{×}%
+% \renewcommand{\defnname}{×}%
+% \renewcommand{\egname}{×}%
+% \renewcommand{\conjname}{×}%
+% \renewcommand{\objname}{×}%

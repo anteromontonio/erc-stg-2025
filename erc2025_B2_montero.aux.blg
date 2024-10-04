@@ -1,0 +1,5 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'erc2025_B2_montero.aux.blg'
+[41] biber-darwin:340> INFO - === Fri Oct  4, 2024, 11:07:45
+[129] Utils.pm:410> ERROR - Cannot find 'erc2025_B2_montero.aux.bcf'!
+[129] Biber.pm:136> INFO - ERRORS: 1

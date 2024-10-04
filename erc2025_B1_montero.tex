@@ -1,0 +1,237 @@
+\documentclass[a4paper,12pt,english]{article}
+\usepackage[compact]{titlesec}
+\usepackage[hang,flushmargin,stable]{footmisc}
+\usepackage[top=1.5cm, bottom=1.5cm, left=2cm, right=2cm, headheight=0.7cm, headsep=.4cm]{geometry}
+% \usepackage[nohyperlinks,nolist]{acronym}
+\usepackage[T1]{fontenc}
+% \usepackage{newtxtext}
+\usepackage[usenames,dvipsnames,table]{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts,amsmath,amssymb,amsthm}
+% \usepackage{amsaddr}
+\usepackage{babel}
+\usepackage{array}
+% \usepackage{booktabs}
+\usepackage{csquotes}
+\usepackage{enumitem}
+\setlist{noitemsep,topsep=5pt,parsep=5pt,partopsep=0pt}
+\usepackage{eurosym}
+\usepackage{fancybox}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{lineno}
+\usepackage{lmodern}
+\usepackage{lscape}
+\usepackage{makecell}
+\usepackage{marginnote}
+\usepackage{multirow}
+\usepackage{pgfgantt}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepgfplotslibrary{polar}
+\pgfplotsset{compat=1.12}
+\usepackage{pifont}
+% \usepackage{sectsty}
+\usepackage{sidecap}
+\usepackage{soul} % for smarter (word-wrapping) underlining
+\setul{1pt}{.4pt} % 1pt below contents
+\usepackage{wrapfig}
+\usepackage{xspace}
+
+% HotFix from http://tex.stackexchange.com/a/300259/84485
+% Version1 of titlesec is not compatible with the latest texlive.
+% Either the titlesec package must be updated, or the following HotFix used:
+\usepackage{etoolbox}
+% \makeatletter
+% \patchcmd{\ttlh@hang}{\parindent\z@}{\parindent\z@\leavevmode}{}{}
+% \patchcmd{\ttlh@hang}{\noindent}{}{}{}
+% \makeatother
+
+% Fonts
+% \usepackage{libertine}
+% \usepackage{gillius2}
+% \usepackage[libertine]{newtxmath}
+
+
+% Size
+% \headheight=14pt
+% \setlength{\parindent}{20pt}
+\titleformat*{\section}{\large\bfseries}
+\titleformat*{\subsection}{\normalsize\bfseries}
+\titleformat*{\subsubsection}{\normalsize\bfseries}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\baselinestretch}{1.0}
+% \renewcommand{\maketitlehooka}{\sffamily\bfseries\raggedright\color{royalblue}}
+
+
+
+% Spacing
+% \usepackage{xpatch}
+% \makeatletter
+% \xpatchcmd{\paragraph}{3.25ex \@plus1ex \@minus.2ex}{2pt plus 1pt minus 1pt}{\typeout{success!}}{\typeout{failure!}}
+% \makeatother
+\titlespacing*{\section}{0pt}{ 1cm plus .2cm minus .2cm}{1em}
+\titlespacing*{\subsection}{0pt}{ 1cm plus .2cm minus .2cm}{1em}
+\titlespacing*{\subsubsection}{0pt}{ 1cm plus .2cm minus .2cm}{1em}
+
+
+% Color
+\definecolor{royalblue}{RGB}{56,115,178}
+% \allsectionsfont{\sffamily\bfseries\raggedright\color{royalblue}}
+% \allsectionsfont{\bfseries\raggedright\color{royalblue}}
+% \let\oldfootnotesize\footnotesize
+% \newcommand{\highlight}[1]{\colorbox{gray!15}{\small{#1}}}
+% \newcommand{\marginLeft}[1]{\reversemarginpar\marginnote{\rotatebox{90}{\sffamily\bfseries\color{royalblue}{\phantom{j}#1}}}}
+% \newcommand{\marginRight}[1]{\normalmarginpar\hspace{0pt}\marginpar{\rotatebox{0}{\sffamily\color{gray}\normalsize{#1}}}}
+% \newcommand\colorrule{\vspace{2px}{\color{royalblue}\hrule}\vspace{2px}}
+
+% Bibliography
+
+\usepackage[%
+sorting=nyt, %
+backend=biber, %
+style=numeric,%
+defernumbers=true,%
+% sorting=ydnt,%
+url=false,%
+eprint=false,%
+giveninits=true,
+maxbibnames=9,%
+% doi=false,%
+isbn=false,%
+sortcites = true,%
+citestyle=numeric-comp,
+]{biblatex}
+
+
+
+\newcommand{\maincolumnwidth}{0.84\textwidth}
+\newcommand{\separatorcolumnwidth}{0.04\textwidth}
+\newcommand{\hintscolumnwidth}{0.15\textwidth}
+
+\newcommand*{\cvitem}[3][.25em]{%
+  \noindent \begin{tabular}{@{}p{\hintscolumnwidth}@{\hspace{\separatorcolumnwidth}}p{\maincolumnwidth}@{}}%
+    \raggedleft{#2} &{#3}%
+  \end{tabular}%
+  \par
+  %\addvspace{#1}
+  }
+
+
+\newcommand*{\cventry}[7][.25em]{%
+  \cvitem[#1]{#2}{%
+    {\bfseries#3}%
+    \ifthenelse{\equal{#4}{}}{}{, {\slshape#4}}%
+    \ifthenelse{\equal{#5}{}}{}{, #5}%
+    \ifthenelse{\equal{#6}{}}{}{, #6}%
+    .\strut%
+    \ifx&#7&%
+    \else{\newline{}\begin{minipage}[t]{\linewidth}\small#7\end{minipage}}\fi}}
+
+
+% \AtEveryBibitem{\vspace{-1mm}}
+% \AtBeginBibliography{\small}
+% \AtBeginBibliography{\footnotesize}
+% \AtBeginBibliography{\scriptsize}
+
+
+\addbibresource{erc.bib}
+
+% \renewcommand{ \cite}{\footfullcite}
+
+%tables
+\usepackage{tabularx}
+\newcolumntype{C}{>{\centering\arraybackslash}X}%
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}%
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}%
+% \newcolumntype{M}{>{\centering\arraybackslash$\displaystyle}X<{$}}
+
+
+\newcolumntype{\ll}[1]{>{\hsize=#1\hsize\raggedright\arraybackslash}X}%
+\newcolumntype{\rr}[1]{>{\hsize=#1\hsize\raggedleft\arraybackslash}X}%
+\newcolumntype{\cc}[1]{>{\hsize=#1\hsize\centering\arraybackslash}X}%
+
+
+
+\input{authorCmd}
+\input{authorThm}
+
+
+\hypersetup{
+    pdftitle={ERC Starting grang 2025 - Part B1 - \acr - Montero},    % title
+    pdfauthor={Antonio Montero},
+    colorlinks=true,
+    citecolor=royalblue,
+    linkcolor=royalblue,
+    urlcolor=royalblue
+  }
+
+% To correctly align fancy headers.
+% Courtesy of: http://tex.stackexchange.com/a/88136/84485
+\makeatletter
+\newcommand{\resetHeadWidth}{\f@nch@setoffs}
+\makeatother
+
+% Headers and Footers - specify Abrr and ProjectCode
+\pagestyle{fancy}
+\fancyhead[L]{\color{gray}\textit{Montero}}
+\fancyhead[C]{\color{gray}{Part B1}}
+\fancyhead[R]{\color{gray}{\acr}}
+\fancyfoot{}
+% \fancyfoot[L]{\small \color{gray}{Teaching Statement }}
+% \fancyfoot[C]{\small \color{gray}{ \thepage~/~ \pageref*{sec:textend}}}
+\fancyfoot[C]{\small \color{gray}{ \thepage}}
+\resetHeadWidth
+
+
+\makeatletter
+    \providecommand\@dotsep{5}
+\makeatother
+
+
+\begin{document}
+
+\title{ \textbf{\normalsize {ERC Starting Grant 2025} \\ \normalsize Research proposal [Part B1] \\  \large A very creative title \\ \large \acr }}
+%%
+%% Now edit the following to give your name and address: (AMSart)
+%%
+
+\author{%
+% { \color{gray}
+% Antonio Montero
+% %firstAurhot
+% % Joen Doe%
+% \thanks{antonio.montero@fmf.uni-lj.si} \\ %
+% {\color{gray} Faculty of Mathematics and Physics }\\ \color{gray} University of Ljubljana,\\ \color{gray} Jadranska 19 1000 Ljubljana, Slovenia
+% % Magic Department\thanks{I am no longer a member of this department}, %
+% % Richard Miles University %
+}
+\date{}
+% }
+% \author{}
+% \address{Faculty of Mathematics and Physics (FMF), University of Ljubljana, SI-1000 Ljubljana, Slovenia}
+% \email{antonio.montero@fmf.uni-lj.si}
+
+\maketitle
+\thispagestyle{fancy}
+
+\input{B1_cover.tex}
+\input{B1_proposalSummary.tex} 
+\clearpage
+\input{B1_extSyn.tex}
+\printbibliography
+
+\clearpage
+
+\input{B1_cv.tex}
+
+
+
+
+
+% \label{sec:textend}
+ 
+
+\end{document}
