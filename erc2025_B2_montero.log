@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.28)  4 OCT 2024 11:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.28)  13 OCT 2024 17:28
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1037,8 +1037,9 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@delta=\dimen323
 \TX@cols=\count500
 \TX@ftn=\toks70
-) (./authorCmd.tex (/usr/local/texlive/2023/texmf-dist/tex/latex/xargs/xargs.sty
-Package: xargs 2008/03/22 v1.1  extended macro definitions  (mpg)
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2023/01/31 v1.1.6 Todonotes source and documentation.
+Package: todonotes 2023/01/31
  (/usr/local/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
  (/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
@@ -1047,16 +1048,31 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 )
 \XKV@depth=\count501
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-\xargs@max=\count502
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count502
+\calc@Bcount=\count503
+\calc@Adimen=\dimen324
+\calc@Bdimen=\dimen325
+\calc@Askip=\skip97
+\calc@Bskip=\skip98
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count504
+\calc@Cskip=\skip99
+)
+\c@@todonotes@numberoftodonotes=\count505
+) (./authorCmd.tex (/usr/local/texlive/2023/texmf-dist/tex/latex/xargs/xargs.sty
+Package: xargs 2008/03/22 v1.1  extended macro definitions  (mpg)
+\xargs@max=\count506
 \xargs@toksa=\toks73
 \xargs@toksb=\toks74
 )) (./authorThm.tex
-\c@thm=\count503
-\c@conj=\count504
-\c@question=\count505
-\c@problem=\count506
-\c@obj=\count507
+\c@thm=\count507
+\c@conj=\count508
+\c@question=\count509
+\c@problem=\count510
+\c@obj=\count511
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 Package cleveref Info: `hyperref' support loaded on input line 2370.
@@ -1076,35 +1092,35 @@ Package cleveref Info: include cross-reference names in hyperlinks on input line
 Package cleveref Info: always capitalise cross-reference names on input line 7852.
 Package cleveref Info: include cross-reference names in hyperlinks on input line 7852.
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 174.
+Package hyperref Info: Option `colorlinks' set `true' on input line 176.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 199.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 201.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (./erc2025_B2_montero.aux)
 \openout1 = `erc2025_B2_montero.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1142,16 +1158,16 @@ LaTeX Font Info:    ... okay on input line 199.
 
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count508
-\scratchdimen=\dimen324
+\scratchcounter=\count512
+\scratchdimen=\dimen326
 \scratchbox=\box78
-\nofMPsegments=\count509
-\nofMParguments=\count510
+\nofMPsegments=\count513
+\nofMParguments=\count514
 \everyMPshowfont=\toks75
-\MPscratchCnt=\count511
-\MPscratchDim=\dimen325
-\MPnumerator=\count512
-\makeMPintoPDFobject=\count513
+\MPscratchCnt=\count515
+\MPscratchDim=\dimen327
+\MPnumerator=\count516
+\makeMPintoPDFobject=\count517
 \everyMPtoPDFconversion=\toks76
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1165,7 +1181,8 @@ Package grfext Info: Graphics extension search list:
  (/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 199.
+Package hyperref Info: Link coloring ON on input line 201.
+ (./erc2025_B2_montero.out) (./erc2025_B2_montero.out)
 \@outlinefile=\write6
 \openout6 = `erc2025_B2_montero.out'.
 
@@ -1174,20 +1191,20 @@ Package pgfplots notification 'compat/show suggested version=true': you might be
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2023/02/25 v3.4 ragged2e Package
-\CenteringLeftskip=\skip97
-\RaggedLeftLeftskip=\skip98
-\RaggedRightLeftskip=\skip99
-\CenteringRightskip=\skip100
-\RaggedLeftRightskip=\skip101
-\RaggedRightRightskip=\skip102
-\CenteringParfillskip=\skip103
-\RaggedLeftParfillskip=\skip104
-\RaggedRightParfillskip=\skip105
-\JustifyingParfillskip=\skip106
-\CenteringParindent=\skip107
-\RaggedLeftParindent=\skip108
-\RaggedRightParindent=\skip109
-\JustifyingParindent=\skip110
+\CenteringLeftskip=\skip100
+\RaggedLeftLeftskip=\skip101
+\RaggedRightLeftskip=\skip102
+\CenteringRightskip=\skip103
+\RaggedLeftRightskip=\skip104
+\RaggedRightRightskip=\skip105
+\CenteringParfillskip=\skip106
+\RaggedLeftParfillskip=\skip107
+\RaggedRightParfillskip=\skip108
+\JustifyingParfillskip=\skip109
+\CenteringParindent=\skip110
+\RaggedLeftParindent=\skip111
+\RaggedRightParindent=\skip112
+\JustifyingParindent=\skip113
 )
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1202,408 +1219,98 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'erc2025_B2_montero.bbl' found.
  (./erc2025_B2_montero.bbl)
-Package biblatex Info: Reference section=0 on input line 199.
-Package biblatex Info: Reference segment=0 on input line 199.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 223.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
+Package biblatex Info: Reference section=0 on input line 201.
+Package biblatex Info: Reference segment=0 on input line 201.
+
+
+Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 201.
+
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 225.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 223.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 225.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 223.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 225.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 223.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 225.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 223.
+(Font)              <14.4> on input line 225.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 223.
+(Font)              <10> on input line 225.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 223.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 223.
+(Font)              <7> on input line 225.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 225.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 223.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 225.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-
-LaTeX Warning: Citation 'Noether1918_InvarianteVariationsprobleme' on page 1 undefined on input line 250.
-
-
-LaTeX Warning: Citation 'KosmaSchwa2011_NoetherTheoremsInvariance' on page 1 undefined on input line 251.
-
-
-LaTeX Warning: Citation 'Kelvin1894_MolecularTacticsCrystal' on page 1 undefined on input line 252.
-
-
-LaTeX Warning: Citation 'McNauWilki1997_CompendiumChemicalTerminology' on page 1 undefined on input line 252.
-
-
-LaTeX Warning: Citation 'JaffAltMer1964_AntipyridoxineEffectPenicillamine' on page 1 undefined on input line 253.
-
-
-Overfull \hbox (142.56168pt too wide) in paragraph at lines 248--254
-\T1/lmr/m/n/12 as a break-through con-tri-bu-tion to mod-ern the-o-ret-i-cal physics (see [[]]).
- []
-
-
-Overfull \hbox (21.74481pt too wide) in paragraph at lines 248--254
-\T1/lmr/m/n/12 The no-tion of \T1/lmr/m/it/12 chi-ral-ity\T1/lmr/m/n/12 , first in-tro-duced by Lord Kelvin [[]],
- []
-
-
-Overfull \hbox (159.40424pt too wide) in paragraph at lines 248--254
-\T1/lmr/m/n/12 of) sym-me-try prop-er-ties im-pose dif-fer-ent chem-i-cal be-haviour (see [[]],
- []
-
-
-LaTeX Warning: Citation 'Hurwitz1892_UeberAlgebraischeGebilde' on page 1 undefined on input line 261.
-
-
-LaTeX Warning: Citation 'Tutte1959_SymmetryCubicGraphs' on page 1 undefined on input line 261.
-
-
-Overfull \hbox (4.61395pt too wide) in paragraph at lines 260--262
-\T1/lmr/m/n/12 group of a com-pact Rie-mann sur-face or those by Tutte [[]]
- []
-
-[1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}
+) [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}
 
 ]
-
-LaTeX Warning: Reference `prob:symmetry' on page 1 undefined on input line 269.
-
-
-LaTeX Warning: Citation 'DuVal1964_HomographiesQuaternionsRotations' on page 2 undefined on input line 285.
-
-
-LaTeX Warning: Citation 'Coxeter1973_RegularPolytopes' on page 2 undefined on input line 285.
-
-
-LaTeX Warning: Citation 'Coxeter1991_RegularComplexPolytopes' on page 2 undefined on input line 285.
-
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 286.
+(Font)              <12> on input line 288.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 286.
+(Font)              <8> on input line 288.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 286.
-
-Overfull \hbox (144.41171pt too wide) in paragraph at lines 284--291
-\T1/lmr/m/n/12 sym-me-try usu-ally agrees with the clas-si-cal ge-o-met-ri-cal no-tion (see [[],
- []
-
-
-LaTeX Warning: Citation 'PellPotTol2019_ExistenceResultTwo' on page 2 undefined on input line 295.
-
-
-Overfull \hbox (14.7521pt too wide) in paragraph at lines 292--296
-\T1/lmr/m/n/12 more gen-eral class of ob-jects) were build very re-cently [[]],
- []
-
-
-LaTeX Warning: Citation 'CunDelHuTo2015_SymmetryTypeGraphs' on page 2 undefined on input line 298.
-
-
-LaTeX Warning: Citation 'HubaMocMon2023_VoltageOperationsManiplexes' on page 2 undefined on input line 299.
-
-
-LaTeX Warning: Citation 'HubarMocha2023_AllPolytopesAre' on page 2 undefined on input line 299.
-
-
-Overfull \hbox (76.46172pt too wide) in paragraph at lines 297--302
-\T1/lmr/m/n/12 of the flag graph of the poly-tope by its au-to-mor-phism group [[]].
- []
-
-[2{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
-
-LaTeX Warning: Reference `conj:STG' on page 1 undefined on input line 310.
-
-
-LaTeX Warning: Reference `obj:STG' on page 1 undefined on input line 313.
-
-
-LaTeX Warning: Citation 'HubaMocMon2023_VoltageOperationsManiplexes' on page 3 undefined on input line 315.
-
-
-LaTeX Warning: Citation 'HubaMocMon_SymmetriesVoltageOperations_preprint' on page 3 undefined on input line 318.
-
-
-Overfull \hbox (75.28535pt too wide) in paragraph at lines 315--319
-\T1/lmr/m/n/12 should give us at least a sec-ond pub-li-ca-tion [[]],
- []
-
-
-LaTeX Warning: Citation 'HubaMocMon2023_VoltageOperationsManiplexes' on page 3 undefined on input line 324.
-
-
-LaTeX Warning: Citation 'HubaMocMon_SymmetriesVoltageOperations_preprint' on page 3 undefined on input line 326.
-
-
-LaTeX Warning: Reference `obj:operations' on page 1 undefined on input line 326.
-
-
-Overfull \hbox (91.80072pt too wide) in paragraph at lines 324--327
-\T1/lmr/m/n/12 try is the main topic of the on-go-ing manuscript [[]]
- []
-
-
-LaTeX Warning: Citation 'Pellicer2010_ExtensionsDuallyBipartite' on page 3 undefined on input line 334.
-
-
-LaTeX Warning: Citation 'Pellicer2009_ExtensionsRegularPolytopes' on page 3 undefined on input line 334.
-
-
-LaTeX Warning: Citation 'Schulte1985_ExtensionsRegularComplexes' on page 3 undefined on input line 334.
-
-
-LaTeX Warning: Citation 'Schulte1983_ArrangingRegularIncidence' on page 3 undefined on input line 334.
-
-
-LaTeX Warning: Citation 'Schulte1990_ClassAbstractPolytopes' on page 3 undefined on input line 334.
-
-
-LaTeX Warning: Citation 'Danzer1984_RegularIncidenceComplexes' on page 3 undefined on input line 334.
-
-
-LaTeX Warning: Citation 'SchulWeiss1995_FreeExtensionsChiral' on page 3 undefined on input line 336.
-
-
-LaTeX Warning: Citation 'CunniPelli2014_ChiralExtensionsChiral' on page 3 undefined on input line 336.
-
-
-LaTeX Warning: Citation 'Montero2021_SchlaefliSymbolChiral' on page 3 undefined on input line 336.
-
-
-LaTeX Warning: Citation 'Cunningham2017_NonFlatRegular' on page 3 undefined on input line 337.
-
-
-LaTeX Warning: Citation 'Montero2019_ChiralExtensionsToroids_PhDThesis' on page 3 undefined on input line 340.
-
-
-LaTeX Warning: Citation 'MonteToled_ChiralExtensionsRegular_preprint' on page 3 undefined on input line 341.
-
-
-Overfull \hbox (38.1483pt too wide) in paragraph at lines 330--343
-\T1/lmr/m/n/12 deeply and sev-eral pa-pers have ap-pear on the topic (see [[],
- []
-
-
-Overfull \hbox (28.23898pt too wide) in paragraph at lines 330--343
-[]\T1/lmr/m/n/12 , [],
- []
-
-
-Overfull \hbox (242.34209pt too wide) in paragraph at lines 330--343
-[]\T1/lmr/m/n/12 , [], []],
- []
-
-
-Overfull \hbox (159.58589pt too wide) in paragraph at lines 330--343
-\T1/lmr/m/n/12 ter sit-u-a-tion uni-ver-sal [[]] and fi-nite [[],
- []
-
-
-Overfull \hbox (48.23055pt too wide) in paragraph at lines 330--343
-\T1/lmr/m/n/12 lines the re-sults of our forth-com-ing manuscript [[]].
- []
-
-[3]
-
-LaTeX Warning: Citation 'PellPotTol2019_ExistenceResultTwo' on page 4 undefined on input line 351.
-
-
-LaTeX Warning: Citation 'Matteo2016_TwoOrbitConvex' on page 4 undefined on input line 351.
-
-
-LaTeX Warning: Citation 'Hubard2010_TwoOrbitPolyhedra' on page 4 undefined on input line 351.
-
-
-Overfull \hbox (139.57408pt too wide) in paragraph at lines 349--356
-\T1/lmr/m/n/12 [[], [], []]),
- []
-
-
-LaTeX Warning: Citation 'MonsoSchul2022_InterlacingNumberAlternating' on page 4 undefined on input line 361.
-
-
-LaTeX Warning: Citation 'MonsoSchul2020_UniversalAlternatingSemiregular' on page 4 undefined on input line 361.
-
-
-LaTeX Warning: Citation 'MonsoSchul2019_AssemblyProblemAlternating' on page 4 undefined on input line 361.
-
-
-LaTeX Warning: Citation 'MonsoSchul2012_SemiregularPolytopesAmalgamated' on page 4 undefined on input line 361.
-
-
-Overfull \hbox (239.23477pt too wide) in paragraph at lines 361--365
-\T1/lmr/m/it/12 ter-nat-ing poly-topes \T1/lmr/m/n/12 (see [[], [],
- []
-
-
-Overfull \hbox (133.80081pt too wide) in paragraph at lines 361--365
-[]\T1/lmr/m/n/12 , []]).
- []
-
-
-LaTeX Warning: Citation 'Conder2013_ChiralRotaryMaps' on page 4 undefined on input line 372.
-
-
-LaTeX Warning: Citation 'Conder2012_RegularNonOrientable' on page 4 undefined on input line 372.
-
-
-LaTeX Warning: Citation 'Conder2012_RotaryMapsOn' on page 4 undefined on input line 372.
-
-
-LaTeX Warning: Citation 'Conder2012_RegularPolytopes2000' on page 4 undefined on input line 372.
-
-
-LaTeX Warning: Citation 'Conder2011_RegularOrientableMaps' on page 4 undefined on input line 372.
-
-
-LaTeX Warning: Citation 'Conder2006_ChiralOrientablyRegular' on page 4 undefined on input line 372.
-
-
-LaTeX Warning: Citation 'Potocnik2014_CensusChiralMaps' on page 4 undefined on input line 372.
-
-
-LaTeX Warning: Citation 'Potocnik2014_CensusChiralMaps' on page 4 undefined on input line 372.
-
-
-LaTeX Warning: Citation 'LeLaCoMiMu_AtlasPolytopesSmall' on page 4 undefined on input line 372.
-
-
-LaTeX Warning: Citation 'HartHubLee_AtlasChiralPolytopes' on page 4 undefined on input line 372.
-
-
-LaTeX Warning: Citation 'Hartley2006_AtlasSmallChiral' on page 4 undefined on input line 372.
-
-
-LaTeX Warning: Citation 'Hartley2006_AtlasSmallRegular' on page 4 undefined on input line 372.
-
-
-Overfull \hbox (109.46265pt too wide) in paragraph at lines 372--374
-\T1/lmr/m/n/12 of highly sym-met-ric poly-topes (see [[], [],
- []
-
-
-Overfull \hbox (135.59622pt too wide) in paragraph at lines 372--374
-[]\T1/lmr/m/n/12 , [], [],
- []
-
-
-Overfull \hbox (158.45769pt too wide) in paragraph at lines 372--374
-[]\T1/lmr/m/n/12 , [], [],
- []
-
-
-Overfull \hbox (137.57301pt too wide) in paragraph at lines 372--374
-[]\T1/lmr/m/n/12 , [], [],
- []
-
-
-LaTeX Warning: Reference `tab:percentage' on page 1 undefined on input line 381.
-
-
-Underfull \hbox (badness 10000) in alignment at lines 402--402
+(Font)              <6> on input line 288.
+ [2{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}] [3{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}] [4]
+Underfull \hbox (badness 10000) in alignment at lines 478--478
 [][][][] 
  []
 
-
-LaTeX Warning: Reference `sec:constructions' on page 1 undefined on input line 408.
-
-[4]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 420.
+[5]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 496.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-
-LaTeX Warning: Citation 'Conder2013_SmallestRegularPolytopes' on page 5 undefined on input line 421.
-
-
-LaTeX Warning: Citation 'Cunningham2017_NonFlatRegular' on page 5 undefined on input line 421.
-
-
-LaTeX Warning: Citation 'BercKohRab2020_DeepFairMathematics' on page 5 undefined on input line 436.
-
-
-LaTeX Warning: Citation 'WDAAABBBSB2016_FairGuidingPrinciples' on page 5 undefined on input line 436.
-
-
-Overfull \hbox (220.88121pt too wide) in paragraph at lines 435--437
-\T1/lmr/m/n/12 ply-ing with the FAIR prin-ci-ples (([[], []])).
+) [6] [7{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}] [8]
+Overfull \hbox (38.97427pt too wide) in paragraph at lines 620--620
+\T1/lmr/m/n/12 15824. 2011. \T1/lmr/m/sc/12 url\T1/lmr/m/n/12 : [][]$\T1/lmtt/m/n/12 https : / / www . math . auckland . ac . nz / ~conder / RegularOrientableMaps301 .
  []
 
 
-LaTeX Warning: Reference `obj:datasets' on page 1 undefined on input line 450.
+Overfull \hbox (22.2415pt too wide) in paragraph at lines 620--620
+\T1/lmr/m/n/12 2012. \T1/lmr/m/sc/12 url\T1/lmr/m/n/12 : [][]$\T1/lmtt/m/n/12 https : / / www . math . auckland . ac . nz / ~conder / RotaryMapsWithUpTo1000Edges .
+ []
 
+[9] [10]
+Overfull \hbox (7.58287pt too wide) in paragraph at lines 620--620
+\T1/lmr/m/it/12 der Wis-senschaften zu Göt-tin-gen, Mathematisch-Physikalische Klasse \T1/lmr/m/n/12 1918 (1918), pp. 235^^U
+ []
 
-LaTeX Warning: Reference `obj:publish' on page 1 undefined on input line 450.
-
-
-LaTeX Warning: Reference `sec:constructions' on page 1 undefined on input line 450.
-
-
-LaTeX Warning: Reference `fig:idea' on page 1 undefined on input line 453.
-
-[5] [6]
-
-LaTeX Warning: Empty bibliography on input line 463.
-
-[7
-
-] 
+[11] [12] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./erc2025_B2_montero.aux
-Package cleveref Info: loaded `english' language definitions on input line 33.
+Package cleveref Info: loaded `english' language definitions on input line 39.
 )
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `erc2025_B2_montero.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `erc2025_B2_montero.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
-
-Package lastpage Warning: Rerun to get the references right on input line 473.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                erc2025_B2_montero
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `erc2025_B2_montero.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'erc2025_B2_montero.run.xml'.
 \openout1 = `erc2025_B2_montero.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47441 strings out of 476025
- 1072385 string characters out of 5790017
- 1968699 words of memory out of 5000000
- 67095 multiletter control sequences out of 15000+600000
- 564238 words of font info for 77 fonts, out of 8000000 for 9000
+ 48311 strings out of 476025
+ 1107803 string characters out of 5790017
+ 1990008 words of memory out of 5000000
+ 67872 multiletter control sequences out of 15000+600000
+ 573013 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,12n,94p,1202b,2127s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on erc2025_B2_montero.pdf (7 pages, 199670 bytes).
+ 99i,12n,94p,1652b,2101s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on erc2025_B2_montero.pdf (12 pages, 282250 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
- 27 named destinations out of 1000 (max. 500000)
+ 426 PDF objects out of 1000 (max. 8388607)
+ 381 compressed objects within 4 object streams
+ 105 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
