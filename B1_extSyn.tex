@@ -1,6 +1,241 @@
 \section*{Section a: \textit{Extended Synopsis of the scientific proposal}}
 
-\cite{Montero2018_RegularPolyhedra3,Montero2018_RegularPolyhedra3}
-% [The Extended Synopsis should give a concise presentation of the scientific proposal, with particular attention to the ground-breaking nature of the research project, which will allow evaluation panels to assess, in Step 1 of the evaluation, the feasibility of the outlined scientific approach. Describe the proposed work in the context of the state of the art of the field. It is important that the extended synopsis contains minimum information relevant to the evaluation criteria, since the Step 1 panel will have access only to part B1. 
-% References to literature should also be included. Please use a reference style that is commonly used in your discipline such as American Chemical Society (ACS) style, American Medical Association (AMA) style, Modern Language Association (MLA) style, etc. and that allows the evaluators to easily retrieve each reference.] 
-% \nocite{*}
+\subsubsection*{Background}
+
+There are fundamental differences between the standard scientific method and the method of mathematical research.
+In essence, the scientific method is founded upon the observation of natural phenomena and the measurement of physical quantities.
+These are then used to pose hypotheses, which are then tested against cleverly designed experiments.
+In this way, many false hypotheses can be quickly rejected,
+while those that survive these tests are eventually recognised as laws of nature.
+Conversely, in theoretical mathematics, there is frequently a paucity of initial data upon which hypotheses can be formulated.
+% the development of theoretical mathematical knowledge requires the formulation  and formal proof of hypotheses.
+The process of mathematical research thus typically commences with an abstract concept, which may be based on intuition and a limited number of illustrative examples. 
+These ideas eventually evolve to conjectures.
+However, in contrast to the natural sciences, experimental methodology is absent in many mathematical disciplines, making it challenging to validate conjectures through empirical evidence.
+As we all know too well, this frequently results in significant time investment in attempts to disprove erroneous conjectures, hours that could be spent on proving theorems instead.
+
+Mathematicians are so used to this way of conducting research that the possibility of using experimental data is often overlooked even when available or not too difficult to obtain.
+% This is why we consider the construction of explicit and manageable interesting examples to be one of the most important lines of research in mathematics.
+% In the last few years, with the development of computers, running experiments and computing large datasets of mathematical objects has opened up new opportunities in mathematical research.
+This is why we consider the construction of explicit and manageable interesting examples to be one of the most important lines of research in mathematics.
+In recent years, with the development of computers, the ability to run experiments and compute large datasets of mathematical objects has opened up new possibilities in mathematical research.
+
+Of our particular interest is to build objects with a large degree of mathematical symmetry.
+While each science focus on the consequences of the presence or absence of symmetries (see Noether's theorem \cite{Noether1918_InvarianteVariationsprobleme} for an example in Physics, or Jaffe, Altman and Merryman \cite*{JaffAltMer1964_AntipyridoxineEffectPenicillamine} for an example in Chemistry and Medicine), in mathematics we study the phenomenon in arguably its purest essence. 
+This is usually controlled by the action of a certain group of transformations that respect the global structure, often called \emph{automorphisms}. 
+An object is often considering symmetric if it has a \emph{rich} automorphism group; this notion of \emph{richness} might be present in the form of having a large automorphism group or admitting such a group acting in a specific way (for example, transitively) on the atomic parts of the mathematical object. 
+
+Sometimes the presence of symmetry impose conditions on the structure of the mathematical object.
+There are many examples of this phenomenon: the classification of Platonic solids, the Uniformization Theorem \cite{Abikoff1981_UniformizationTheorem} and Thurston's geometrization conjecture \cite{Thurston1982_ThreeDimensionalManifolds}, or the polycirculant conjecture in graph theory \cite{Marusic1981_VertexSymmetricDigraphs}; just to mention some.
+On the other hand, sometimes structural properties of the objects impose restrictions on the presence of symmetry.
+Hurwitz bound \cite{Hurwitz1892_UeberAlgebraischeGebilde} and Tutte's theorem \cite{Tutte1959_SymmetryCubicGraphs} are classical examples of this phenomenon.
+In general, when studying symmetries from a mathematical perspective we are interested in the following questions
+
+\begin{problem}\label{prob:symmetry}
+  How symmetrical a given mathematical object can be?; what are the  structural properties imposed by high degree of symmetry? what are the possible \emph{symmetry types} of a family of objects? are all those symmetry types achievable?
+\end{problem}
+
+The core ideas of this proposal pose the questions presented in \cref{prob:symmetry} in the context of highly symmetric abstract polytopes. Our research approach is inspired by the first paragraphs of this introduction and relies on the construction of datasets of such objects (explained in detail below).
+We propose a data-driven approach with a two-way flow of knowledge: with the aim of generating new datasets of highly symmetric APs and related objects, we will develop new theoretical results and methods, enabling us to devise new algorithms and combinatorial representations of APs. The algorithms will then be carefully implemented and executed.
+The obtained datasets will then be analysed with the aim of finding interesting patterns, suggesting new conjectures and proposing new directions for further research.
+
+
+
+
+
+\subsection*{Highly symmetric polytopes and related objects}
+
+Abstract polytopes are combinatorial objects that generalise (the face lattice) of convex polytopes.
+Enumeration and classification of highly symmetric convex polytopes goes all the way to the Greeks and the classical problem of classifying what today we know as \emph{Platonic Solids}, to the beginning of last century when the classification of higher dimensional convex polytopes was achieved.
+By considering combinatorial objects and hence removing the geometric constraints, often imposed by the ambient space, the possibilities for constructions of highly symmetric abstract polytopes are now wide open, and a complete classification problem becomes unattainable and rather turns into a series of construction and enumeration problems of families with particular characteristics.
+
+A \emph{flag} of an abstract polytope of rank $n$ is a $n$-tuple of mutually incident faces, one of each rank (dimension). 
+The degree of symmetry of a polytope can be measured by the number of flag-orbits of its automorphism group.
+
+\emph{Regular polytopes} are those that are flag-transitive, meaning they have exactly $1$ flag-orbit.
+This \emph{symmetry type} of polytopes has been traditionally the most studied one and includes classical examples as Platonic solids and regular tilings of Euclidean and Hyperbolic spaces.
+A slightly less symmetric class of polytopes is that of \emph{$2$-orbit polytopes} and among those, \emph{chiral polytopes} are the most studied.
+The notion of chirality is a classical one in other natural sciences, notably in Chemistry.
+However, in the context of abstract polytopes, chirality has a very specific meaning. 
+Chiral polytopes were formally introduced in \cite*{SchulWeiss1991_ChiralPolytopes} by Schulte and Weiss as a combinatorial generalisation of Coxeter's twisted honeycombs \cite*{Coxeter1970_TwistedHoneycombs}.
+An abstract polytope is chiral if it has $2$ orbits on flags such that adjacent flags belong to different orbits. 
+Informally speaking, a chiral polytope is one that admits maximal degree of combinatorial rotations but that do not admit mirror reflections.
+
+Chiral polytopes are, without a doubt, the second most studied symmetry type of abstract polytopes. 
+Even so, the amount of theory developed around this symmetry type is very limited, in particular when compared with the regular case. 
+One potential reason behind this is the building manageable examples of chiral polytopes has proved to be a extremely difficult problem. 
+Moreover the mere existence of regular polytopes in \emph{higher ranks} (every rank larger than $3$) was established fairly recently \cite{Pellicer2010_ConstructionHigherRank}. 
+However, the examples provided by Pellicer are very quickly impractical due to their size.
+The existence of chiral polytopes in higher ranks can be obtained also a consequence of recent results by Conder, Hubard and O'Reilly \cite*{CondHubORe2024_ConstructionChiralPolytopes}.
+In a joint work with Toledo we used a similar general approach to obtain some results that also prove the existence of chiral polytopes in higher ranks (see \cite{MonteToled_ChiralExtensionsRegular_preprint}). 
+
+When we study abstract regular polytopes with less symmetry, that is, with several flag orbits, the number of such orbits gives us only  partial information. 
+Here is where the notion of the \emph{symmetry type graph (STG)} comes in handy. 
+The \emph{flag-graph} of a polytopes the (edge-coloured) graph whose nodes are the flags of the polytope in such a way that two of them are connected by an edge of colour $i$ ($i \in \{0, \dots, n-1\}$) if the corresponding flags differ exactly on the face of rank $i$.
+It can be proved that the automorphism group of a polytope acts semiregularly as colour-preserving graph automorphisms of the flag-graph. 
+The \emph{symmetry type graph (STG)} of a polytope is the quotient of its flag-graph by its automorphism group
+\cite{CunDelHuTo2015_SymmetryTypeGraphs}.
+This graph has one vertex for each flag-orbit and its connections show the local arrangement of the flag orbits. 
+
+Maniplexes arise naturally as graph-theoretical generalisations of abstract polytopes. 
+A \emph{maniplex of rank $n$} (or $n$-maniplex) is a properly-edge-colour $n$-valent graph that satisfies some properties (that can be made precise) that resemble those of the flag-graph of a polytope.
+\emph{Premaniplexes} (see \cite{HubaMocMon2023_VoltageOperationsManiplexes,HubarMocha2023_AllPolytopesAre}) are properly edge coloured graphs that satisfy certain (natural) conditions so that, when connected, become the most natural candidate to be the symmetry graph of a polytope, in the sense that every STG of a $k$-orbit polytope is a connected premaniplex with $k$ vertices.
+
+Determining weather or not there exist polytopes or maniplexes with a given symmetry type is one of the most relevant and long lasting problems on the theory; it that has shown to be extremely difficult even for the simplest cases.
+However, we pose the following conjecture as theoretical driving goal of our research. 
+
+
+\begin{conj}[Symmetry-type conjecture]\label{conj:STG}
+  For every $n$-premaniplex $\cT$ there exist an abstract polytope $\cP$ such that the symmetry type graph of $\cP$ is isomorphic to $\cT$.
+\end{conj}
+
+This conjecture has been presented before in the form of a problem (see \cite[Problem 12]{CunniPelli2018_OpenProblems$k$}).
+ In \cite{PellPotTol2019_ExistenceResultTwo}, Pellicer, Potočnik and Toledo build examples of $2$-orbit $n$-maniplexes for $n \geq 4$ and every symmetry type with $2$ vertices. 
+ Very recently Mochán \cite{Mochan2024_Polytopality2Orbit} proved that several of them are actually polytopes. However, it is still unknown if \cref{conj:STG} holds for most of the $2$-orbit symmetry types.
+ \cref{conj:STG} is complete solved when $\cT$ has $3$ vertices, that is, for $n \geq  3$ there exist $n$-polytopes with each of the possible connected premaniplexes with $3$ vertices as their symmetry type graph (see \cite[Theorem 4.3]{CunniPelli2018_OpenProblems$k$})
+
+ \cref{conj:STG} defines our research objective.
+
+ \begin{obj}\label{obj:STG}
+  Prove the Symmetry-type conjecture  (\cref{conj:STG}) in full generality.
+\end{obj}
+
+We essentially offer two theoretical (independent but not necessarily disconnected) approaches towards proving \cref{conj:STG}: the theory of extensions of abstract polytopes and the theory of graph coverings.
+
+\subsubsection*{Extensions of abstract polytopes}
+
+An $(n+1)$-polytope $\cP$ is an \emph{extension} of an $n$-polytope $\cK$ if all the facets (maximal faces) of $\cP$ are isomorphic to $\cK$.
+Building extensions is a natural way of building polytopes and related objects, after all is using known examples to build new ones.
+
+The extension problem becomes challenging when we impose symmetry constrains on $\cP$. 
+If $\cP$ is regular, then $\cK$ must also be regular.
+This situation has been explored deeply and several papers have appeared on the topic 
+(see \cite{Pellicer2010_ExtensionsDuallyBipartite,Pellicer2009_ExtensionsRegularPolytopes,Schulte1985_ExtensionsRegularComplexes,Schulte1983_ArrangingRegularIncidence,Schulte1990_ClassAbstractPolytopes, Danzer1984_RegularIncidenceComplexes}, for example)
+If $\cP$ is chiral, then $\cK$ must be either regular or chiral with regular facets.
+In the latter situation universal \cite{SchulWeiss1995_FreeExtensionsChiral} and finite \cite{CunniPelli2014_ChiralExtensionsChiral,Montero2021_SchlaefliSymbolChiral} constructions are known.
+However, if $\cK$ is regular, little is known on the problem of determining whether or not $\cK$ admits a chiral extension.
+In a recent paper \cite{CondHubORe2024_ConstructionChiralPolytopes} Conder, Hubard and O'Reilly proved that for every $n \geq 4$, the $n$-simplex admits a chiral extension.
+In a recently finished paper with Toledo \cite{MonteToled_ChiralExtensionsRegular_preprint} it is proved that all but finitely many regular tessellations of the $n$-dimensional torus admit a chiral extension.
+
+However, the problem of finding chiral extensions of regular polytopes is mostly open and due to its importance we pose it as one of our driving questions:
+
+\begin{problem}\label{prob:chirExt}
+  Determine which regular polytopes admit a chiral extension.
+ \end{problem}
+ 
+ The Schläfli symbol of an abstract $n$-polytope $\cK$ is a sequence $\{p_{1}, \dots, p_{n-1}\}$ that describes the local combinatorics of a $\cK$. 
+ In particular, if $\cK$ has Schläfli symbol $\{p_{1}, \dots, p_{n-1}\}$, then the number of facets of $\cK$ around each $(n-3)$-face is $p_{n-1}$.
+Not every abstract polytope has a well-defined Schläfli symbol, however, regular an chiral ones do. 
+If $\cP$ is a regular or chiral extension of $\cK$ and $\cK$ has Schläfli symbol $\{p_{1}, \dots, p_{n-1}\}$, then $\cP$ must have Schläfli symbol $\{p_{1}, \dots, p_{n-1}, q\}$ for some (possibly infinity) $q$.
+
+\begin{problem} \label{prob:chirExtType}
+  Let $\cK$ be a regular $n$-polytope or a chiral polytope with regular facets and assume that $\cK$ has Schläfli symbol $\{p_{1}, \dots, p_{n-1}\}$. Determine de possible integers $q$ so that $\cK$ admits a chiral extension of type $\{p_{1}, \dots, p_{n-1}, q\}$.
+\end{problem}
+
+Chiral polytopes are just one of  $2^{n}-1$ possible symmetry types of $2$-orbit $n$-polytopes.
+Each symmetry type are in correspondence with a proper subset $I$ of $\left\{ 0, \dots, n-1 \right\} $ defined by the property that $i \in I$ if and only if any two $i$-adjacent flags are on the same orbit.
+If $I \neq \{0, \dots, n-2\}$, then a polytope in class $2_{I} $ is facet-transitive hence it makes explore the extension problem: given $\cK$ an $n$-polytope, does $\cK$ admit an extension in class $2_{I}$ for $I \neq \left\{ 0, \dots, n-1 \right\} $ (note the shift on the rank).
+The case $I=\left\{ 0, \dots, n-1 \right\} $ is in correspondence with the problem of constructing \emph{semiregular alternating polytopes} (see \cite{MonsoSchul2022_InterlacingNumberAlternating,MonsoSchul2020_UniversalAlternatingSemiregular,MonsoSchul2019_AssemblyProblemAlternating,MonsoSchul2012_SemiregularPolytopesAmalgamated}).
+These polytopes have two different types of regular facets occurring in an alternating way around each $(n-3)$-face.
+
+The theory of extensions of APs in class $2_I$ is mostly unexplored and we consider it a good first step towards achieving \cref{obj:STG}.
+
+\begin{obj}\label{obj:2_I}
+  Develop the theory of $2$-orbit non chiral extensions of abstract polytopes and, as a consequence, push forward the results about alternating semiregular polytopes.
+\end{obj}
+
+\subsubsection*{Abstract polytopes and graphs coverings}
+
+For a graph $G$ with the dart-set $D(G)$ and an abstract group $\Gamma$, we say that a function $\zeta :  D(G) \to \Gamma$ is  a \emph{voltage assignment}  on $G$ provided that it maps inverse darts to inverse group elements. 
+Given such
+ a voltage assignment, one can construct the \emph{derived covering graph} $\Cov(G,\zeta)$ and the \emph{derived regular covering projection}
+ $\wp_\zeta \colon \Cov(G,\zeta) \to G$
+ with $\Gamma$ acting regularly on each fibre as a subgroup of the covering transformations of $\wp$.
+Conversely, every regular covering projection is isomorphic (in a sense that can be made precise) to one derived from a voltage assignment.
+
+The automorphism group of a maniplex acts semiregularly on the flags.
+Hence, every maniplex may be regarded simply s a regular cover of its symmetry type graph. 
+Equivalently, there exists a voltage assignment $\zeta$ such that if $\cT$ is the symmetry type of a maniplex $\cM$, then $\cM = \Cov(T,\zeta)$.
+This means that \cref{conj:STG} can be formulated as a problem in the language of coverings of graphs or rather, of premaniplexes.
+
+
+A constant problem when using this approach is that quite often the graph $\Cov(T, \zeta)$ has more than the desired symmetry. 
+This phenomenon can occur essentially for two reasons:
+\begin{enumerate}[label=\textit{\roman*)}]
+  \item there might be automorphisms of $\cT$ that lift to (undesired) automorphisms of $\Cov(\cT,\zeta)$ (e.g. a regular maniplex covering the symmetry type graph of chiral maniplexes);
+  \item or there might be automorphisms of $\Cov(\cT,\zeta)$ that do not project to automorphisms of $\cT$ (e.g. a regular maniplex covering a $3$-vertex premaniplex) 
+\end{enumerate}
+
+Explicit examples of both situations are known  (and they are not uncommon). 
+The theory of coverings of graphs offers a way to understanding both phenomena via the study of the groups $\maxlift(\wp)$ and $\maxproj(\wp)$ that, for a graph covering $\wp: \bar{G} \to G$, describe the automorphisms $G$ that lift to $\bar{G}$ and the automorphisms of $\bar{G}$ that project to $G$, respectively. (see \cite{MalniPozar2016_SplitStructureLifted,MalniPozar2019_SplitLiftingsSectional,MalnMarPot2004_ElementaryAbelianCovers,MalnNedSko2000_LiftingGraphAutomorphisms} for details).
+
+A graph covering $\wp: \bar{G} \to G$ is called \emph{stable} if $\aut(\bar{G}) = \maxproj(\wp)$. 
+For the purposes of solving \cref{conj:STG}, given a premaniplex $\cT$ we shall find a stable covering $\wp: \Cov(\cT, \zeta) \to \cT$ that satisfies $\maxlift(\wp) = 1$. 
+This is not a new problem, and in the more general theory of coverings of graphs,  the following conjecture is believed to be true (see \cite{PotocSpiga2019_LiftingPrescribedGroup}):
+
+\begin{conj}\label{conj:covers}
+  For every graph $G$  and $\Gamma \leq \aut(G)$ (satisfying some mild conditions that can be made precise), there exists a \emph{ stable} non-identity regular covering projection $\wp \colon \bar{G} \to G$ 
+such that $\Gamma = \maxlift(\wp)$.
+\end{conj}
+
+As part of the implementation of our research we shall explore the validity of \cref{conj:covers} for coverings of (pre)maniplexes. 
+This shall not only provide with tools to solve \cref{conj:STG} but it will also give us insight into the more general problem of proving \cref{conj:covers}.
+
+
+\subsection*{Datasets of abstract polytopes} \label{sec:datasets}
+
+The research objectives presented above are classical and natural in the theory of abstract polytopes. 
+Our approach would not be innovative in any way if it was not connected with and experimental and data-oriented complement.
+
+
+Theoretical constructions of abstract polytopes have lead to the constructions of some datasets of highly symmetric polytopes and related objects (see \cite{Conder2013_ChiralRotaryMaps,Conder2012_RegularNonOrientable,Conder2012_RotaryMapsOn,Conder2012_RegularPolytopes2000,Conder2011_RegularOrientableMaps,Conder2006_ChiralOrientablyRegular,Potocnik2014_CensusChiralMaps,Potocnik2014_CensusChiralMaps,LeLaCoMiMu_AtlasPolytopesSmall,HartHubLee_AtlasChiralPolytopes,Hartley2006_AtlasSmallChiral,Hartley2006_AtlasSmallRegular}).
+However, the existing datasets of polytopes suffer of the following restrictions
+\begin{enumerate}[label=\textit{(\roman*)}, noitemsep]
+  \item They are mainly focused on regular or chiral polytopes.
+  \item The size of the examples is very restrictive.
+  \item They often exhibit numerous examples of rank $3$ but the amount of examples of rank higher than $4$ drops dramatically.
+  \item They are not very user-friendly, either because they exist only as raw data or because the are specific-programming language oriented.
+\end{enumerate}
+
+In  \cref{tab:percentage} we show the proportion of examples according to ranks on the existing datasets of polytopes with examples of rank higher than $3$.
+The points addressed above clearly show a need to push forward the existing datasets. 
+Of course, this leads to our last research objective.
+
+\begin{obj}\label{obj:datasets}
+  Extend the existing and build new datasets of abstract polytopes and related structures with particular focus on
+  \begin{enumerate}[label=\textit{(\roman*)}, noitemsep]
+    \item Building examples on ranks higher than $3$;
+    \item Exploring different symmetry types.
+  \end{enumerate}
+\end{obj}
+
+% \begin{center}
+\begin{table}
+\centering
+		\begin{tabularx}{0.7\textwidth}{|\ll{1.5}|\cc{.5}|\cc{.5}|\cc{.5}|}
+		\hline
+		Dataset & Rank $3$ & Rank $4$ & Rank $\geq 5$ \\ \hline
+		Hartley - Regular \cite{Hartley2006_AtlasSmallRegular} &
+			64.55\%	& 31.61\%	& 3.84\% \\
+		Hartley - Chiral  \cite{Hartley2006_AtlasSmallChiral} &
+			85.71\% &	14.29\% &	0.00\% \\
+		Conder - Regular \cite{Conder2012_RegularPolytopes2000} &
+			61.51\% &	34.70\% &	3.79\% \\
+		Conder - Chiral  \cite{Conder2012_ChiralPolytopes2000} &
+			87.01\% &	12.87\% &	0.12\% \\
+		Leemans - Regular \cite{LeLaCoMiMu_AtlasPolytopesSmall}&
+			95.35\% &	4.37\% &	0.30\% \\
+		Leemans - Chiral \cite{HartHubLee_AtlasChiralPolytopes} &
+			87.82\% &	11.97\% &	0.21\% \\ \hline
+		\end{tabularx}
+		\caption{Percentages of examples according to rank}\label{tab:percentage}
+\end{table}
+
+\subsection*{General implementation and project management}
+
+I strongly believe in team collaboration and as a junior researcher, I am committed to support my fellow young colleagues.
+While I plan to carry most of the research, I plan to form a research team consisting mostly of junior researchers. 
+My current research network already counts with young experts in relevant areas for our research: Micael Toledo and Primož Potočnik are leading experts on covers of graphs and maniplexes while Rhys Evans is not only a strong theoretical mathematician but an expert in the development of software packages. 
+Katja Berčič is a leading expert in mathematical knowledge management and her input will be crucial towards completing \cref{obj:datasets}.
+Moreover, a number of well established researchers
+have expressed an interest to spend part of the time collaborating in this research. This list include Marston Conder (University of Auckland), Isabel Hubard (UNAM - Mexico) and Gabe Cunningham (Wentworth Institute of Technology).

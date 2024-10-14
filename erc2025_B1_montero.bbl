@@ -19,6 +19,1436 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{Abikoff1981_UniformizationTheorem}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0d703d5a4c4a4e8dd75bf7b4c7144ae2}{%
+           family={Abikoff},
+           familyi={A\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Informa {UK} Limited}%
+      }
+      \strng{namehash}{0d703d5a4c4a4e8dd75bf7b4c7144ae2}
+      \strng{fullhash}{0d703d5a4c4a4e8dd75bf7b4c7144ae2}
+      \strng{bibnamehash}{0d703d5a4c4a4e8dd75bf7b4c7144ae2}
+      \strng{authorbibnamehash}{0d703d5a4c4a4e8dd75bf7b4c7144ae2}
+      \strng{authornamehash}{0d703d5a4c4a4e8dd75bf7b4c7144ae2}
+      \strng{authorfullhash}{0d703d5a4c4a4e8dd75bf7b4c7144ae2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The American Mathematical Monthly}
+      \field{month}{10}
+      \field{number}{8}
+      \field{title}{The {U}niformization {T}heorem}
+      \field{volume}{88}
+      \field{year}{1981}
+      \field{pages}{574\bibrangedash 592}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1080/00029890.1981.11995320
+      \endverb
+    \endentry
+    \entry{ColliMonte2021_EquivelarToroidsFew}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1fe9760d870b95cd3232e75516223895}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={José},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9241c4c1a55c31e5611d15f5b37db516}{%
+           family={Montero},
+           familyi={M\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{dd641410aec3fb78ede2d85140b3a207}
+      \strng{fullhash}{dd641410aec3fb78ede2d85140b3a207}
+      \strng{bibnamehash}{dd641410aec3fb78ede2d85140b3a207}
+      \strng{authorbibnamehash}{dd641410aec3fb78ede2d85140b3a207}
+      \strng{authornamehash}{dd641410aec3fb78ede2d85140b3a207}
+      \strng{authorfullhash}{dd641410aec3fb78ede2d85140b3a207}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{An \$\$(n+1)\$\$(n+1)-toroid is a quotient of a tessellation of the n-dimensional Euclidean space with a lattice group. Toroids are generalisations of maps on the torus to higher dimensions and also provide examples of abstract polytopes. Equivelar toroids are those that are induced by regular tessellations. In this paper we present a classification of equivelar \$\$(n+1)\$\$(n+1)-toroids with at most n flag-orbits; in particular, we discuss a classification of 2-orbit toroids of arbitrary dimension.}
+      \field{issn}{1432-0444}
+      \field{journaltitle}{Discrete \& Computational Geometry}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{Equivelar {Toroids} with {Few} {Flag}-{Orbits}}
+      \field{urlday}{18}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{volume}{65}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{305\bibrangedash 330}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1007/s00454-020-00230-y
+      \endverb
+      \verb{file}
+      \verb :CollinsMontero_2021_EquivelarToroidsFew.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00454-020-00230-y
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00454-020-00230-y
+      \endverb
+      \keyw{research}
+    \endentry
+    \entry{Conder2006_ChiralOrientablyRegular}{online}{}
+      \name{author}{1}{}{%
+        {{hash=74f9f7aff6a59db6b75b902af9e01339}{%
+           family={Conder},
+           familyi={C\bibinitperiod},
+           given={Marston},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{fullhash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{bibnamehash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{authorbibnamehash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{authornamehash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{authorfullhash}{74f9f7aff6a59db6b75b902af9e01339}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Total number of maps in list below: 594}
+      \field{title}{Chiral orientably-regular maps of genus 2 to 101}
+      \field{year}{2006}
+      \verb{urlraw}
+      \verb https://www.math.auckland.ac.nz/~conder/ChiralMaps101.txt
+      \endverb
+      \verb{url}
+      \verb https://www.math.auckland.ac.nz/~conder/ChiralMaps101.txt
+      \endverb
+    \endentry
+    \entry{Conder2011_RegularOrientableMaps}{online}{}
+      \name{author}{1}{}{%
+        {{hash=74f9f7aff6a59db6b75b902af9e01339}{%
+           family={Conder},
+           familyi={C\bibinitperiod},
+           given={Marston},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{fullhash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{bibnamehash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{authorbibnamehash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{authornamehash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{authorfullhash}{74f9f7aff6a59db6b75b902af9e01339}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Total number of maps in list below: 15824}
+      \field{title}{Regular orientable maps of genus 2 to 301}
+      \field{year}{2011}
+      \verb{urlraw}
+      \verb https://www.math.auckland.ac.nz/~conder/RegularOrientableMaps301.txt
+      \endverb
+      \verb{url}
+      \verb https://www.math.auckland.ac.nz/~conder/RegularOrientableMaps301.txt
+      \endverb
+    \endentry
+    \entry{Conder2012_ChiralPolytopes2000}{online}{}
+      \name{author}{1}{}{%
+        {{hash=74f9f7aff6a59db6b75b902af9e01339}{%
+           family={Conder},
+           familyi={C\bibinitperiod},
+           given={Marston},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{fullhash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{bibnamehash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{authorbibnamehash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{authornamehash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{authorfullhash}{74f9f7aff6a59db6b75b902af9e01339}
+      \field{extraname}{3}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Chiral polytopes with up to 2000 flags}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://www.math.auckland.ac.nz/~conder/ChiralPolytopesWithFewFlags-ByOrder.txt
+      \endverb
+      \verb{url}
+      \verb https://www.math.auckland.ac.nz/~conder/ChiralPolytopesWithFewFlags-ByOrder.txt
+      \endverb
+    \endentry
+    \entry{Conder2012_RegularNonOrientable}{online}{}
+      \name{author}{1}{}{%
+        {{hash=74f9f7aff6a59db6b75b902af9e01339}{%
+           family={Conder},
+           familyi={C\bibinitperiod},
+           given={Marston},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{fullhash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{bibnamehash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{authorbibnamehash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{authornamehash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{authorfullhash}{74f9f7aff6a59db6b75b902af9e01339}
+      \field{extraname}{4}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Total number of maps in list below: 3260}
+      \field{title}{Regular non-orientable maps of genus 2 to 602}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://www.math.auckland.ac.nz/~conder/RegularNonorientableMaps602.txt
+      \endverb
+      \verb{url}
+      \verb https://www.math.auckland.ac.nz/~conder/RegularNonorientableMaps602.txt
+      \endverb
+    \endentry
+    \entry{Conder2012_RegularPolytopes2000}{online}{}
+      \name{author}{1}{}{%
+        {{hash=74f9f7aff6a59db6b75b902af9e01339}{%
+           family={Conder},
+           familyi={C\bibinitperiod},
+           given={Marston},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{fullhash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{bibnamehash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{authorbibnamehash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{authornamehash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{authorfullhash}{74f9f7aff6a59db6b75b902af9e01339}
+      \field{extraname}{5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Regular polytopes with up to 2000 flags}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://www.math.auckland.ac.nz/~conder/RegularPolytopesWithFewFlags-ByOrder.txt
+      \endverb
+      \verb{url}
+      \verb https://www.math.auckland.ac.nz/~conder/RegularPolytopesWithFewFlags-ByOrder.txt
+      \endverb
+    \endentry
+    \entry{Conder2012_RotaryMapsOn}{online}{}
+      \name{author}{1}{}{%
+        {{hash=74f9f7aff6a59db6b75b902af9e01339}{%
+           family={Conder},
+           familyi={C\bibinitperiod},
+           given={Marston},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{fullhash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{bibnamehash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{authorbibnamehash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{authornamehash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{authorfullhash}{74f9f7aff6a59db6b75b902af9e01339}
+      \field{extraname}{6}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Rotary maps (on orientable or non-orientable surfaces) with up to 1000 edges}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://www.math.auckland.ac.nz/~conder/RotaryMapsWithUpTo1000Edges.txt
+      \endverb
+      \verb{url}
+      \verb https://www.math.auckland.ac.nz/~conder/RotaryMapsWithUpTo1000Edges.txt
+      \endverb
+    \endentry
+    \entry{Conder2013_ChiralRotaryMaps}{online}{}
+      \name{author}{1}{}{%
+        {{hash=74f9f7aff6a59db6b75b902af9e01339}{%
+           family={Conder},
+           familyi={C\bibinitperiod},
+           given={Marston},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{fullhash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{bibnamehash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{authorbibnamehash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{authornamehash}{74f9f7aff6a59db6b75b902af9e01339}
+      \strng{authorfullhash}{74f9f7aff6a59db6b75b902af9e01339}
+      \field{extraname}{7}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Total number of maps in list below: 3870}
+      \field{title}{Chiral rotary maps of genus 2 to 301}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://www.math.auckland.ac.nz/~conder/ChiralMaps301.txt
+      \endverb
+      \verb{url}
+      \verb https://www.math.auckland.ac.nz/~conder/ChiralMaps301.txt
+      \endverb
+    \endentry
+    \entry{CondHubORe2024_ConstructionChiralPolytopes}{article}{}
+      \name{author}{3}{}{%
+        {{hash=74f9f7aff6a59db6b75b902af9e01339}{%
+           family={Conder},
+           familyi={C\bibinitperiod},
+           given={Marston},
+           giveni={M\bibinitperiod}}}%
+        {{hash=aa4399f67818e106d6217fdd49ef3372}{%
+           family={Hubard},
+           familyi={H\bibinitperiod},
+           given={Isabel},
+           giveni={I\bibinitperiod}}}%
+        {{hash=1204e1dedb29ecd272df0cc67c0823fd}{%
+           family={O'Reilly-Regueiro},
+           familyi={O\bibinithyphendelim R\bibinitperiod},
+           given={Eugenia},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{0050c21f4db72c0e6ac80b2a49ec8794}
+      \strng{fullhash}{0050c21f4db72c0e6ac80b2a49ec8794}
+      \strng{bibnamehash}{0050c21f4db72c0e6ac80b2a49ec8794}
+      \strng{authorbibnamehash}{0050c21f4db72c0e6ac80b2a49ec8794}
+      \strng{authornamehash}{0050c21f4db72c0e6ac80b2a49ec8794}
+      \strng{authorfullhash}{0050c21f4db72c0e6ac80b2a49ec8794}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Chiral polytopes are highly symmetric abstract polytopes that have maximal rotational symmetry but no reflections. Until recently, very few examples of chiral d-polytopes with rank d≥5 were known. In this paper we extend a construction for chiral 4-polytopes (with tetrahedral facets) to produce two infinite families of chiral d-polytopes with simplex facets, for every integer d≥5. Specifically, we show that for every d≥5, there exists a chiral d-polytope with automorphism group isomorphic to the alternating group An and a chiral d-polytope with automorphism group isomorphic to the symmetric group Sn, for all but finitely many n. In each case the facets are simplices, and the vertex-figures are chiral. Our extended construction can also be modified to produce four families of regular d-polytopes with simplices as facets, and automorphism groups isomorphic to An, Sn, An×C2 and Sn×C2 for all but finitely many n.}
+      \field{issn}{0001-8708}
+      \field{journaltitle}{Advances in Mathematics}
+      \field{month}{8}
+      \field{title}{Construction of chiral polytopes of large rank with alternating or symmetric automorphism group}
+      \field{urlday}{16}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{452}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{109819}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.aim.2024.109819
+      \endverb
+      \verb{file}
+      \verb :ConderHubardOReillyRegueiro_2024_ConstructionChiralPolytopes.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001870824003347
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001870824003347
+      \endverb
+      \keyw{Abstract polytope,Chiral polytope,Symmetric group,Alternating group}
+    \endentry
+    \entry{Coxeter1970_TwistedHoneycombs}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d2ef43d3dbc3f84ea174519c99e3ffd5}{%
+           family={Coxeter},
+           familyi={C\bibinitperiod},
+           given={H.\bibnamedelimi S.\bibnamedelimi M.},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Mathematical Society, Providence, R.I.}%
+      }
+      \strng{namehash}{d2ef43d3dbc3f84ea174519c99e3ffd5}
+      \strng{fullhash}{d2ef43d3dbc3f84ea174519c99e3ffd5}
+      \strng{bibnamehash}{d2ef43d3dbc3f84ea174519c99e3ffd5}
+      \strng{authorbibnamehash}{d2ef43d3dbc3f84ea174519c99e3ffd5}
+      \strng{authornamehash}{d2ef43d3dbc3f84ea174519c99e3ffd5}
+      \strng{authorfullhash}{d2ef43d3dbc3f84ea174519c99e3ffd5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Conference Board of the Mathematical Sciences Regional Conference Series in Mathematics, No. 4}
+      \field{title}{Twisted honeycombs}
+      \field{year}{1970}
+      \field{pages}{iv+47}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1090/cbms/004
+      \endverb
+      \verb{file}
+      \verb :Coxeter_1970_TwistedHoneycombs.pdf:PDF
+      \endverb
+    \endentry
+    \entry{CunDelHuTo2015_SymmetryTypeGraphs}{article}{}
+      \name{author}{4}{}{%
+        {{hash=7b38ed4a0824452e2e3d87a11ffa212e}{%
+           family={Cunningham},
+           familyi={C\bibinitperiod},
+           given={Gabe},
+           giveni={G\bibinitperiod}}}%
+        {{hash=845b190e85a0acb53d0a1c34151f5395}{%
+           family={Del\bibnamedelima Río-Francos},
+           familyi={D\bibinitperiod\bibinitdelim R\bibinithyphendelim F\bibinitperiod},
+           given={María},
+           giveni={M\bibinitperiod}}}%
+        {{hash=aa4399f67818e106d6217fdd49ef3372}{%
+           family={Hubard},
+           familyi={H\bibinitperiod},
+           given={Isabel},
+           giveni={I\bibinitperiod}}}%
+        {{hash=462b52533df45cf525a525ffc07f5cef}{%
+           family={Toledo},
+           familyi={T\bibinitperiod},
+           given={Micael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{0631635839b7fcb6e67c3205f1fe102b}
+      \strng{fullhash}{9ffa594bdd5828e44602350e1185acf6}
+      \strng{bibnamehash}{9ffa594bdd5828e44602350e1185acf6}
+      \strng{authorbibnamehash}{9ffa594bdd5828e44602350e1185acf6}
+      \strng{authornamehash}{0631635839b7fcb6e67c3205f1fe102b}
+      \strng{authorfullhash}{9ffa594bdd5828e44602350e1185acf6}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0218-0006}
+      \field{journaltitle}{Ann. Comb.}
+      \field{number}{2}
+      \field{title}{Symmetry type graphs of polytopes and maniplexes}
+      \field{volume}{19}
+      \field{year}{2015}
+      \field{pages}{243\bibrangedash 268}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1007/s00026-015-0263-z
+      \endverb
+      \verb{file}
+      \verb :CunninghamDelRioFrancosHubardToledo_2015_SymmetryTypeGraphs.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00026-015-0263-z
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00026-015-0263-z
+      \endverb
+    \endentry
+    \entry{CunniPelli2014_ChiralExtensionsChiral}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7b38ed4a0824452e2e3d87a11ffa212e}{%
+           family={Cunningham},
+           familyi={C\bibinitperiod},
+           given={Gabe},
+           giveni={G\bibinitperiod}}}%
+        {{hash=693efa4ca517aac81687c7c7249e9ae4}{%
+           family={Pellicer},
+           familyi={P\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{805e35c456046871aefd99419d530e7b}
+      \strng{fullhash}{805e35c456046871aefd99419d530e7b}
+      \strng{bibnamehash}{805e35c456046871aefd99419d530e7b}
+      \strng{authorbibnamehash}{805e35c456046871aefd99419d530e7b}
+      \strng{authornamehash}{805e35c456046871aefd99419d530e7b}
+      \strng{authorfullhash}{805e35c456046871aefd99419d530e7b}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0012-365X}
+      \field{journaltitle}{Discrete Math.}
+      \field{title}{Chiral extensions of chiral polytopes}
+      \field{volume}{330}
+      \field{year}{2014}
+      \field{pages}{51\bibrangedash 60}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.disc.2014.04.014
+      \endverb
+      \verb{file}
+      \verb :CunninghamPellicer_2014_ChiralExtensionsChiral.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.disc.2014.04.014
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.disc.2014.04.014
+      \endverb
+    \endentry
+    \entry{CunniPelli2018_OpenProblems$k$}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7b38ed4a0824452e2e3d87a11ffa212e}{%
+           family={Cunningham},
+           familyi={C\bibinitperiod},
+           given={Gabe},
+           giveni={G\bibinitperiod}}}%
+        {{hash=693efa4ca517aac81687c7c7249e9ae4}{%
+           family={Pellicer},
+           familyi={P\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{805e35c456046871aefd99419d530e7b}
+      \strng{fullhash}{805e35c456046871aefd99419d530e7b}
+      \strng{bibnamehash}{805e35c456046871aefd99419d530e7b}
+      \strng{authorbibnamehash}{805e35c456046871aefd99419d530e7b}
+      \strng{authornamehash}{805e35c456046871aefd99419d530e7b}
+      \strng{authorfullhash}{805e35c456046871aefd99419d530e7b}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0012-365X}
+      \field{journaltitle}{Discrete Math.}
+      \field{number}{6}
+      \field{title}{Open problems on {$k$}-orbit polytopes}
+      \field{volume}{341}
+      \field{year}{2018}
+      \field{pages}{1645\bibrangedash 1661}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1016/j.disc.2018.03.004
+      \endverb
+      \verb{file}
+      \verb :CunninghamPellicer_2018_OpenProblems$k$.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.disc.2018.03.004
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.disc.2018.03.004
+      \endverb
+    \endentry
+    \entry{Danzer1984_RegularIncidenceComplexes}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=fc0136736ff2352e9ab84c9b0c776449}{%
+           family={Danzer},
+           familyi={D\bibinitperiod},
+           given={Ludwig},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {North-Holland, Amsterdam}%
+      }
+      \strng{namehash}{fc0136736ff2352e9ab84c9b0c776449}
+      \strng{fullhash}{fc0136736ff2352e9ab84c9b0c776449}
+      \strng{bibnamehash}{fc0136736ff2352e9ab84c9b0c776449}
+      \strng{authorbibnamehash}{fc0136736ff2352e9ab84c9b0c776449}
+      \strng{authornamehash}{fc0136736ff2352e9ab84c9b0c776449}
+      \strng{authorfullhash}{fc0136736ff2352e9ab84c9b0c776449}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Convexity and graph theory ({J}erusalem, 1981)}
+      \field{series}{North-Holland Math. Stud.}
+      \field{title}{Regular incidence-complexes and dimensionally unbounded sequences of such. {I}}
+      \field{volume}{87}
+      \field{year}{1984}
+      \field{pages}{115\bibrangedash 127}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/S0304-0208(08)72815-9
+      \endverb
+      \verb{file}
+      \verb :Danzer_1984_RegularIncidenceComplexes.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/S0304-0208(08)72815-9
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/S0304-0208(08)72815-9
+      \endverb
+    \endentry
+    \entry{Hartley2006_AtlasSmallChiral}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c1c7af7affd89980b9b69869d8c8932e}{%
+           family={Hartley},
+           familyi={H\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c1c7af7affd89980b9b69869d8c8932e}
+      \strng{fullhash}{c1c7af7affd89980b9b69869d8c8932e}
+      \strng{bibnamehash}{c1c7af7affd89980b9b69869d8c8932e}
+      \strng{authorbibnamehash}{c1c7af7affd89980b9b69869d8c8932e}
+      \strng{authornamehash}{c1c7af7affd89980b9b69869d8c8932e}
+      \strng{authorfullhash}{c1c7af7affd89980b9b69869d8c8932e}
+      \field{extraname}{1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An atlas of small chiral polytopes}
+      \field{year}{2006}
+      \verb{urlraw}
+      \verb https://www.abstract-polytopes.com/chiral/
+      \endverb
+      \verb{url}
+      \verb https://www.abstract-polytopes.com/chiral/
+      \endverb
+    \endentry
+    \entry{Hartley2006_AtlasSmallRegular}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c1c7af7affd89980b9b69869d8c8932e}{%
+           family={Hartley},
+           familyi={H\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c1c7af7affd89980b9b69869d8c8932e}
+      \strng{fullhash}{c1c7af7affd89980b9b69869d8c8932e}
+      \strng{bibnamehash}{c1c7af7affd89980b9b69869d8c8932e}
+      \strng{authorbibnamehash}{c1c7af7affd89980b9b69869d8c8932e}
+      \strng{authornamehash}{c1c7af7affd89980b9b69869d8c8932e}
+      \strng{authorfullhash}{c1c7af7affd89980b9b69869d8c8932e}
+      \field{extraname}{2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Atlas of Small Regular Polytopes}
+      \field{year}{2006}
+      \verb{urlraw}
+      \verb https://www.abstract-polytopes.com/atlas/
+      \endverb
+      \verb{url}
+      \verb https://www.abstract-polytopes.com/atlas/
+      \endverb
+    \endentry
+    \entry{HartHubLee_AtlasChiralPolytopes}{online}{}
+      \name{author}{3}{}{%
+        {{hash=c1c7af7affd89980b9b69869d8c8932e}{%
+           family={Hartley},
+           familyi={H\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=aa4399f67818e106d6217fdd49ef3372}{%
+           family={Hubard},
+           familyi={H\bibinitperiod},
+           given={Isabel},
+           giveni={I\bibinitperiod}}}%
+        {{hash=c4e81600203eedc626b2fdde924207da}{%
+           family={Leemans},
+           familyi={L\bibinitperiod},
+           given={Dimitri},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{0d772161be1a44be492436405b4d2c19}
+      \strng{fullhash}{0d772161be1a44be492436405b4d2c19}
+      \strng{bibnamehash}{0d772161be1a44be492436405b4d2c19}
+      \strng{authorbibnamehash}{0d772161be1a44be492436405b4d2c19}
+      \strng{authornamehash}{0d772161be1a44be492436405b4d2c19}
+      \strng{authorfullhash}{0d772161be1a44be492436405b4d2c19}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An Atlas of Chiral Polytopes for Small Almost Simple Groups}
+      \verb{urlraw}
+      \verb https://leemans.dimitri.web.ulb.be/CHIRAL/index.html
+      \endverb
+      \verb{url}
+      \verb https://leemans.dimitri.web.ulb.be/CHIRAL/index.html
+      \endverb
+    \endentry
+    \entry{HubarMocha2023_AllPolytopesAre}{article}{}
+      \name{author}{2}{}{%
+        {{hash=aa4399f67818e106d6217fdd49ef3372}{%
+           family={Hubard},
+           familyi={H\bibinitperiod},
+           given={Isabel},
+           giveni={I\bibinitperiod}}}%
+        {{hash=7aa811d653badadb8ed6ca9046da2e26}{%
+           family={Mochán},
+           familyi={M\bibinitperiod},
+           given={Elías},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{c33735ddb4d545087f9dbe301ec841bf}
+      \strng{fullhash}{c33735ddb4d545087f9dbe301ec841bf}
+      \strng{bibnamehash}{c33735ddb4d545087f9dbe301ec841bf}
+      \strng{authorbibnamehash}{c33735ddb4d545087f9dbe301ec841bf}
+      \strng{authornamehash}{c33735ddb4d545087f9dbe301ec841bf}
+      \strng{authorfullhash}{c33735ddb4d545087f9dbe301ec841bf}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{polytopes generalize the classical notion of convex polytopes to more general combinatorial structures. The most studied ones are regular and chiral polytopes, as it is well-known, they can be constructed as coset geometries from their automorphism groups. This is also known to be true for 2- and 3-orbit 3-polytopes. In this paper we show that every abstract n-polytope can be constructed as a coset geometry. This construction is done by giving a characterization, in terms of generators, relations and intersection conditions, of the automorphism group of a k-orbit polytope with given symmetry type graph. Furthermore, we use these results to show that for all k≠2, there exist k-orbit n-polytopes with Boolean automorphism groups, for all n≥3.}
+      \field{issn}{0195-6698}
+      \field{journaltitle}{European Journal of Combinatorics}
+      \field{month}{10}
+      \field{shorttitle}{All polytopes are coset geometries}
+      \field{title}{All polytopes are coset geometries: {Characterizing} automorphism groups of k-orbit abstract polytopes}
+      \field{urlday}{10}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{volume}{113}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{103746}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.ejc.2023.103746
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:https\://www.sciencedirect.com/science/article/abs/pii/S019566982300063X/pdfft?isDTMRedir=true&download=true:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S019566982300063X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S019566982300063X
+      \endverb
+    \endentry
+    \entry{HubaMocMon2023_VoltageOperationsManiplexes}{article}{}
+      \name{author}{3}{}{%
+        {{hash=aa4399f67818e106d6217fdd49ef3372}{%
+           family={Hubard},
+           familyi={H\bibinitperiod},
+           given={Isabel},
+           giveni={I\bibinitperiod}}}%
+        {{hash=7aa811d653badadb8ed6ca9046da2e26}{%
+           family={Mochán},
+           familyi={M\bibinitperiod},
+           given={Elías},
+           giveni={E\bibinitperiod}}}%
+        {{hash=9241c4c1a55c31e5611d15f5b37db516}{%
+           family={Montero},
+           familyi={M\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{935fd1c57bd8e15ac85349d35a1e75a1}
+      \strng{fullhash}{935fd1c57bd8e15ac85349d35a1e75a1}
+      \strng{bibnamehash}{935fd1c57bd8e15ac85349d35a1e75a1}
+      \strng{authorbibnamehash}{935fd1c57bd8e15ac85349d35a1e75a1}
+      \strng{authornamehash}{935fd1c57bd8e15ac85349d35a1e75a1}
+      \strng{authorfullhash}{935fd1c57bd8e15ac85349d35a1e75a1}
+      \field{extraname}{1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Classical geometric and topological operations on polyhedra, maps and polytopes often give rise to structures with the same symmetry group as the original one, but with more flags. In this paper we introduce the notion of voltage operations on maniplexes, as a way to unify the study of such operations and generalize them to other geometric and combinatorial structures such as abstract polytopes, hypermaps, maniplexes or hypertopes. This can be done since our technique provides a way to study classical operations in a graph theoretic setting, and thus to apply a voltage operation one only needs that the combinatorial structure in hand can be understood as an n-valent properly n-edge colored graph. For example, in the case of abstract polytopes, the partial order can be encoded into the so-called flag graph of the polytope and the voltage operation is therefore applied to such flag graph to then be recovered as a partial order. We focus on studying the interactions between voltage operations and the symmetries of the operated object, and show that these operations can be potentially used to build maniplexes with prescribed symmetry type graphs. Moreover, a complete characterization of when an operation can be seen as a voltage operation is given.}
+      \field{issn}{1439-6912}
+      \field{journaltitle}{Combinatorica}
+      \field{month}{5}
+      \field{title}{Voltage {Operations} on {Maniplexes}, {Polytopes} and {Maps}}
+      \field{urlday}{25}
+      \field{urlmonth}{5}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/s00493-023-00018-7
+      \endverb
+      \verb{file}
+      \verb :HubardMochanMontero_2023_VoltageOperationsManiplexes.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00493-023-00018-7
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00493-023-00018-7
+      \endverb
+      \keyw{Abstract polytopes,Map operations,Operations,Maniplexes,Voltage graphs,52B15,05E18,52B05}
+    \endentry
+    \entry{HubaMocMon_SymmetriesVoltageOperations_preprint}{unpublished}{}
+      \name{author}{3}{}{%
+        {{hash=aa4399f67818e106d6217fdd49ef3372}{%
+           family={Hubard},
+           familyi={H\bibinitperiod},
+           given={Isabel},
+           giveni={I\bibinitperiod}}}%
+        {{hash=7aa811d653badadb8ed6ca9046da2e26}{%
+           family={Mochán},
+           familyi={M\bibinitperiod},
+           given={Elías},
+           giveni={E\bibinitperiod}}}%
+        {{hash=9241c4c1a55c31e5611d15f5b37db516}{%
+           family={Montero},
+           familyi={M\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{935fd1c57bd8e15ac85349d35a1e75a1}
+      \strng{fullhash}{935fd1c57bd8e15ac85349d35a1e75a1}
+      \strng{bibnamehash}{935fd1c57bd8e15ac85349d35a1e75a1}
+      \strng{authorbibnamehash}{935fd1c57bd8e15ac85349d35a1e75a1}
+      \strng{authornamehash}{935fd1c57bd8e15ac85349d35a1e75a1}
+      \strng{authorfullhash}{935fd1c57bd8e15ac85349d35a1e75a1}
+      \field{extraname}{2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Voltage operations extend traditional geometric and combinatorial operations (such as medial, truncation, prism, and pyramid over a polytope) to operations on maniplexes, maps, polytopes, and hypertopes. In classical operations, the symmetries of the original object remain in the operated one, but sometimes additional symmetries are created; the same situation arises with voltage operations. We characterise the automorphisms of the operated object that are derived from the original one and use this to bound the number of flag orbits (under the action of the automorphism group) of the operated object in terms of the original one. The conditions under which the automorphism group of the original object is the same as the automorphism group of the operated object are given. We also look at the cases where there is additional symmetry, which can be accurately described due to the symmetries of the operation itself.}
+      \field{note}{In preparation}
+      \field{title}{Symmetries of voltage operations on polytopes, maps and maniplexes}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2312.13184
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2312.13184
+      \endverb
+      \keyw{preparation}
+    \endentry
+    \entry{HubOrbPeWe2012_SymmetriesEquivelar4}{article}{}
+      \name{author}{4}{}{%
+        {{hash=aa4399f67818e106d6217fdd49ef3372}{%
+           family={Hubard},
+           familyi={H\bibinitperiod},
+           given={Isabel},
+           giveni={I\bibinitperiod}}}%
+        {{hash=5866ed81eddd9042a3c6bdfbc9bdb339}{%
+           family={Orbanić},
+           familyi={O\bibinitperiod},
+           given={Alen},
+           giveni={A\bibinitperiod}}}%
+        {{hash=693efa4ca517aac81687c7c7249e9ae4}{%
+           family={Pellicer},
+           familyi={P\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c9e580901b818b424b763c860f86ca45}{%
+           family={Weiss},
+           familyi={W\bibinitperiod},
+           given={Asia\bibnamedelima Ivić},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{d740e1a01c25b755f0c17b98d032e81e}
+      \strng{fullhash}{821ce385034c7bef51b7422ed5160d70}
+      \strng{bibnamehash}{821ce385034c7bef51b7422ed5160d70}
+      \strng{authorbibnamehash}{821ce385034c7bef51b7422ed5160d70}
+      \strng{authornamehash}{d740e1a01c25b755f0c17b98d032e81e}
+      \strng{authorfullhash}{821ce385034c7bef51b7422ed5160d70}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0179-5376}
+      \field{journaltitle}{Discrete Comput. Geom.}
+      \field{number}{4}
+      \field{title}{Symmetries of equivelar 4-toroids}
+      \field{volume}{48}
+      \field{year}{2012}
+      \field{pages}{1110\bibrangedash 1136}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1007/s00454-012-9444-2
+      \endverb
+      \verb{file}
+      \verb :HubardOrbanicPellicerWeiss_2012_SymmetriesEquivelar4.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/s00454-012-9444-2
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/s00454-012-9444-2
+      \endverb
+    \endentry
+    \entry{Hurwitz1892_UeberAlgebraischeGebilde}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4a2e28faeaf493b2a3480d91f1235b68}{%
+           family={Hurwitz},
+           familyi={H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {de}%
+      }
+      \strng{namehash}{4a2e28faeaf493b2a3480d91f1235b68}
+      \strng{fullhash}{4a2e28faeaf493b2a3480d91f1235b68}
+      \strng{bibnamehash}{4a2e28faeaf493b2a3480d91f1235b68}
+      \strng{authorbibnamehash}{4a2e28faeaf493b2a3480d91f1235b68}
+      \strng{authornamehash}{4a2e28faeaf493b2a3480d91f1235b68}
+      \strng{authorfullhash}{4a2e28faeaf493b2a3480d91f1235b68}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1432-1807}
+      \field{journaltitle}{Mathematische Annalen}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{Ueber algebraische {Gebilde} mit eindeutigen {Transformationen} in sich}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{volume}{41}
+      \field{year}{1892}
+      \field{urldateera}{ce}
+      \field{pages}{403\bibrangedash 442}
+      \range{pages}{40}
+      \verb{doi}
+      \verb 10.1007/BF01443420
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://link.springer.com/content/pdf/10.1007%2FBF01443420.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/BF01443420
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/BF01443420
+      \endverb
+    \endentry
+    \entry{JaffAltMer1964_AntipyridoxineEffectPenicillamine}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ed8d72375cb0b84aaf0dfcc6c48072c7}{%
+           family={Jaffe},
+           familyi={J\bibinitperiod},
+           given={Israeli\bibnamedelima A.},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=c8c1a8052c98444ffa2151b29de93a66}{%
+           family={Altman},
+           familyi={A\bibinitperiod},
+           given={Kurt},
+           giveni={K\bibinitperiod}}}%
+        {{hash=6c8db82d6aa21d698cf7db3eddc3b631}{%
+           family={Merryman},
+           familyi={M\bibinitperiod},
+           given={Parvin},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {American Society for Clinical Investigation}%
+      }
+      \strng{namehash}{c7dbf46fa8587278e8bc79bcd05be494}
+      \strng{fullhash}{c7dbf46fa8587278e8bc79bcd05be494}
+      \strng{bibnamehash}{c7dbf46fa8587278e8bc79bcd05be494}
+      \strng{authorbibnamehash}{c7dbf46fa8587278e8bc79bcd05be494}
+      \strng{authornamehash}{c7dbf46fa8587278e8bc79bcd05be494}
+      \strng{authorfullhash}{c7dbf46fa8587278e8bc79bcd05be494}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0021-9738}
+      \field{journaltitle}{The Journal of Clinical Investigation}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{The {Antipyridoxine} {Effect} of {Penicillamine} in {Man}}
+      \field{urlday}{11}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{volume}{43}
+      \field{year}{1964}
+      \field{urldateera}{ce}
+      \field{pages}{1869\bibrangedash 1873}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1172/JCI105060
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:http\://www.jci.org/articles/view/105060/files/pdf:application/pdf;PubMed entry:http\://www.ncbi.nlm.nih.gov/pubmed/14236210:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jci.org/articles/view/105060
+      \endverb
+      \verb{url}
+      \verb https://www.jci.org/articles/view/105060
+      \endverb
+    \endentry
+    \entry{LeLaCoMiMu_AtlasPolytopesSmall}{online}{}
+      \name{author}{5}{}{%
+        {{hash=c4e81600203eedc626b2fdde924207da}{%
+           family={Leemans},
+           familyi={L\bibinitperiod},
+           given={Dimitri},
+           giveni={D\bibinitperiod}}}%
+        {{hash=26cf24e907f15287def06a4126c3b5f6}{%
+           family={Laurence},
+           familyi={L\bibinitperiod},
+           given={Vauthier},
+           giveni={V\bibinitperiod}}}%
+        {{hash=391e81a6ce6b42e72681ab07a3af8c7f}{%
+           family={Connor},
+           familyi={C\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=25d09bd8b316fd12d89490598e9b7890}{%
+           family={Mixer},
+           familyi={M\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=46dd2c30855d889753c62d977a15cd54}{%
+           family={Mulpas},
+           familyi={M\bibinitperiod},
+           given={Jessica},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef0a4a24917df9d01bbc8c81d1778b38}
+      \strng{fullhash}{19ce757ce28d97fb1e88229f4d197a06}
+      \strng{bibnamehash}{19ce757ce28d97fb1e88229f4d197a06}
+      \strng{authorbibnamehash}{19ce757ce28d97fb1e88229f4d197a06}
+      \strng{authornamehash}{ef0a4a24917df9d01bbc8c81d1778b38}
+      \strng{authorfullhash}{19ce757ce28d97fb1e88229f4d197a06}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An Atlas of Polytopes for Small Almost Simple Groups}
+      \verb{urlraw}
+      \verb https://leemans.dimitri.web.ulb.be/polytopes/index.html
+      \endverb
+      \verb{url}
+      \verb https://leemans.dimitri.web.ulb.be/polytopes/index.html
+      \endverb
+    \endentry
+    \entry{MalniPozar2016_SplitStructureLifted}{article}{}
+      \name{author}{2}{}{%
+        {{hash=59bf61e990116e4110ddbabf3467262a}{%
+           family={Malnič},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=33a48f97e21ad97e7ac30ab1bd3649dd}{%
+           family={Požar},
+           familyi={P\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{58abbe7cd2f4b7b3429c87cfc598fefb}
+      \strng{fullhash}{58abbe7cd2f4b7b3429c87cfc598fefb}
+      \strng{bibnamehash}{58abbe7cd2f4b7b3429c87cfc598fefb}
+      \strng{authorbibnamehash}{58abbe7cd2f4b7b3429c87cfc598fefb}
+      \strng{authornamehash}{58abbe7cd2f4b7b3429c87cfc598fefb}
+      \strng{authorfullhash}{58abbe7cd2f4b7b3429c87cfc598fefb}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ars Math. Contemp}
+      \field{title}{On the split structure of lifted groups}
+      \field{volume}{10}
+      \field{year}{2016}
+      \field{pages}{113\bibrangedash 134}
+      \range{pages}{22}
+    \endentry
+    \entry{MalniPozar2019_SplitLiftingsSectional}{article}{}
+      \name{author}{2}{}{%
+        {{hash=59bf61e990116e4110ddbabf3467262a}{%
+           family={Malnič},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=33a48f97e21ad97e7ac30ab1bd3649dd}{%
+           family={Požar},
+           familyi={P\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{58abbe7cd2f4b7b3429c87cfc598fefb}
+      \strng{fullhash}{58abbe7cd2f4b7b3429c87cfc598fefb}
+      \strng{bibnamehash}{58abbe7cd2f4b7b3429c87cfc598fefb}
+      \strng{authorbibnamehash}{58abbe7cd2f4b7b3429c87cfc598fefb}
+      \strng{authornamehash}{58abbe7cd2f4b7b3429c87cfc598fefb}
+      \strng{authorfullhash}{58abbe7cd2f4b7b3429c87cfc598fefb}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Math. Comp}
+      \field{number}{316}
+      \field{title}{On split liftings with sectional complements}
+      \field{volume}{88}
+      \field{year}{2019}
+      \field{pages}{983\bibrangedash 1005}
+      \range{pages}{23}
+    \endentry
+    \entry{MalnMarPot2004_ElementaryAbelianCovers}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ea86cbaf3081139784ee9ab8aad47398}{%
+           family={Malnič},
+           familyi={M\bibinitperiod},
+           given={Aleksander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=47b3be0a8993b3b30cb9c334642d54ad}{%
+           family={Marušič},
+           familyi={M\bibinitperiod},
+           given={Dragan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=343530cffd906a0947b43ca80eb84f68}{%
+           family={Potočnik},
+           familyi={P\bibinitperiod},
+           given={Primož},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{54e858d1b2aefa7a2eb346b4e5ecabc1}
+      \strng{fullhash}{54e858d1b2aefa7a2eb346b4e5ecabc1}
+      \strng{bibnamehash}{54e858d1b2aefa7a2eb346b4e5ecabc1}
+      \strng{authorbibnamehash}{54e858d1b2aefa7a2eb346b4e5ecabc1}
+      \strng{authornamehash}{54e858d1b2aefa7a2eb346b4e5ecabc1}
+      \strng{authorfullhash}{54e858d1b2aefa7a2eb346b4e5ecabc1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Let \$\$\{{\textbackslash}mathcal\{C\}\}\$\$G(X) be the set of all (equivalence classes of) regular covering projections of a given connected graph X along which a given group G ≤ Aut X of automorphisms lifts. There is a natural lattice structure on \$\$\{{\textbackslash}mathcal\{C\}\}\$\$G(X), where ℘1 ≤ ℘2 whenever ℘2 factors through ℘1. The sublattice \$\$\{{\textbackslash}mathcal\{C\}\}\$\$G(℘) of coverings which are below a given covering ℘ : X{\textasciitilde} → X naturally corresponds to a lattice \$\$\{{\textbackslash}mathcal\{N\}\}\$\$G(℘) of certain subgroups of the group of covering transformations. In order to study this correspondence, some general theorems regarding morphisms and decomposition of regular covering projections are proved. All theorems are stated and proved combinatorially in terms of voltage assignments, in order to facilitate computation in concrete applications.}
+      \field{issn}{1572-9192}
+      \field{journaltitle}{Journal of Algebraic Combinatorics}
+      \field{month}{7}
+      \field{number}{1}
+      \field{title}{Elementary {Abelian} {Covers} of {Graphs}}
+      \field{urlday}{10}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{volume}{20}
+      \field{year}{2004}
+      \field{urldateera}{ce}
+      \field{pages}{71\bibrangedash 97}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1023/B:JACO.0000047294.42633.25
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://link.springer.com/content/pdf/10.1023%2FB%3AJACO.0000047294.42633.25.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1023/B:JACO.0000047294.42633.25
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1023/B:JACO.0000047294.42633.25
+      \endverb
+      \keyw{covering projection,lifting automorphisms,Cayley voltages,homological covering,invariant subspace,lattice,arc-transitive graph,semisymmetric graph,dipole,Heawood graph}
+    \endentry
+    \entry{MalnNedSko2000_LiftingGraphAutomorphisms}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ea86cbaf3081139784ee9ab8aad47398}{%
+           family={Malnič},
+           familyi={M\bibinitperiod},
+           given={Aleksander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=477517dad004503eceaaf8b9057dc49d}{%
+           family={Nedela},
+           familyi={N\bibinitperiod},
+           given={Roman},
+           giveni={R\bibinitperiod}}}%
+        {{hash=1f8681086aa0521cdc9925fe7a5d1be7}{%
+           family={Škoviera},
+           familyi={Š\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{42e32c0cddad311a7d5eca1fa0b6cd4b}
+      \strng{fullhash}{42e32c0cddad311a7d5eca1fa0b6cd4b}
+      \strng{bibnamehash}{42e32c0cddad311a7d5eca1fa0b6cd4b}
+      \strng{authorbibnamehash}{42e32c0cddad311a7d5eca1fa0b6cd4b}
+      \strng{authornamehash}{42e32c0cddad311a7d5eca1fa0b6cd4b}
+      \strng{authorfullhash}{42e32c0cddad311a7d5eca1fa0b6cd4b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Journal of Combinatorics}
+      \field{month}{10}
+      \field{number}{7}
+      \field{title}{Lifting Graph Automorphisms by Voltage Assignments}
+      \field{volume}{21}
+      \field{year}{2000}
+      \field{pages}{927\bibrangedash 947}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1006/eujc.2000.0390
+      \endverb
+      \verb{file}
+      \verb :MalnicNedelaSkoviera_2000_LiftingGraphAutomorphisms.pdf:PDF
+      \endverb
+    \endentry
+    \entry{Marusic1981_VertexSymmetricDigraphs}{article}{}
+      \name{author}{1}{}{%
+        {{hash=47b3be0a8993b3b30cb9c334642d54ad}{%
+           family={Marušič},
+           familyi={M\bibinitperiod},
+           given={Dragan},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{47b3be0a8993b3b30cb9c334642d54ad}
+      \strng{fullhash}{47b3be0a8993b3b30cb9c334642d54ad}
+      \strng{bibnamehash}{47b3be0a8993b3b30cb9c334642d54ad}
+      \strng{authorbibnamehash}{47b3be0a8993b3b30cb9c334642d54ad}
+      \strng{authornamehash}{47b3be0a8993b3b30cb9c334642d54ad}
+      \strng{authorfullhash}{47b3be0a8993b3b30cb9c334642d54ad}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0012-365X,1872-681X}
+      \field{journaltitle}{Discrete Math.}
+      \field{number}{1}
+      \field{title}{On vertex symmetric digraphs}
+      \field{volume}{36}
+      \field{year}{1981}
+      \field{pages}{69\bibrangedash 81}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/0012-365X(81)90174-6
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/0012-365X(81)90174-6
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/0012-365X(81)90174-6
+      \endverb
+    \endentry
+    \entry{Mochan2024_Polytopality2Orbit}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7aa811d653badadb8ed6ca9046da2e26}{%
+           family={Mochán},
+           familyi={M\bibinitperiod},
+           given={Elías},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{7aa811d653badadb8ed6ca9046da2e26}
+      \strng{fullhash}{7aa811d653badadb8ed6ca9046da2e26}
+      \strng{bibnamehash}{7aa811d653badadb8ed6ca9046da2e26}
+      \strng{authorbibnamehash}{7aa811d653badadb8ed6ca9046da2e26}
+      \strng{authornamehash}{7aa811d653badadb8ed6ca9046da2e26}
+      \strng{authorfullhash}{7aa811d653badadb8ed6ca9046da2e26}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{polytopes are a combinatorial generalization of convex and skeletal polytopes. Counting how many flag orbits a polytope has under its automorphism group is a way of measuring how symmetric it is. Polytopes with one flag orbit are called regular and are very well known. Polytopes with two flag orbits (called 2-orbit polytopes) are, however, way more elusive. There are 2n−1 possible classes of 2-orbit polytopes in rank (dimension) n, but for most of those classes, determining whether or not they are empty is still an open problem. In 2019, in their article An existence result on two-orbit maniplexes, Pellicer, Potočnik and Toledo constructed 2-orbit maniplexes (objects that generalize abstract polytopes and maps) in all these classes, but the question of whether or not they are also polytopes remained open. In this paper we use the results of a previous paper by the author and Hubard to show that some of these 2-orbit maniplexes are, in fact, polytopes. In particular we prove that there are 2-orbit polytopes in all the classes where exactly two kinds of reflections are forbidden. We use this to show that there are at least n2−n+1 classes of 2-orbit polytopes of rank n that are not empty. We also show that the maniplexes constructed with this method in the remaining classes satisfy all but (possibly) one of the properties necessary to be polytopes, therefore we get closer to proving that there are 2-orbit polytopes in all the classes.}
+      \field{issn}{0012-365X}
+      \field{journaltitle}{Discrete Mathematics}
+      \field{month}{9}
+      \field{number}{9}
+      \field{title}{Polytopality of 2-orbit maniplexes}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2024}
+      \field{volume}{347}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{114055}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.disc.2024.114055
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:https\://www.sciencedirect.com/science/article/pii/S0012365X24001869/pdfft?download=true:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0012365X24001869
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0012365X24001869
+      \endverb
+      \keyw{Abstract polytope,Maniplex,Voltage graph,Polytopality,2-orbit polytope,Symmetry type}
+    \endentry
+    \entry{MonsoSchul2012_SemiregularPolytopesAmalgamated}{article}{}
+      \name{author}{2}{}{%
+        {{hash=92abc762b99992d42bbff48863521cfd}{%
+           family={Monson},
+           familyi={M\bibinitperiod},
+           given={Barry},
+           giveni={B\bibinitperiod}}}%
+        {{hash=1b0972cea15dac8a730bf0f9fa93825e}{%
+           family={Schulte},
+           familyi={S\bibinitperiod},
+           given={Egon},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{1032ae58ce04e21bb2d0d4561ab6f889}
+      \strng{fullhash}{1032ae58ce04e21bb2d0d4561ab6f889}
+      \strng{bibnamehash}{1032ae58ce04e21bb2d0d4561ab6f889}
+      \strng{authorbibnamehash}{1032ae58ce04e21bb2d0d4561ab6f889}
+      \strng{authornamehash}{1032ae58ce04e21bb2d0d4561ab6f889}
+      \strng{authorfullhash}{1032ae58ce04e21bb2d0d4561ab6f889}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Mathematics}
+      \field{month}{3}
+      \field{number}{5}
+      \field{title}{Semiregular polytopes and amalgamated C-groups}
+      \field{volume}{229}
+      \field{year}{2012}
+      \field{pages}{2767\bibrangedash 2791}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1016/j.aim.2011.12.027
+      \endverb
+      \verb{file}
+      \verb :MonsonSchulte_2012_SemiregularPolytopesAmalgamated.pdf:PDF
+      \endverb
+    \endentry
+    \entry{MonsoSchul2019_AssemblyProblemAlternating}{article}{}
+      \name{author}{2}{}{%
+        {{hash=92abc762b99992d42bbff48863521cfd}{%
+           family={Monson},
+           familyi={M\bibinitperiod},
+           given={Barry},
+           giveni={B\bibinitperiod}}}%
+        {{hash=1b0972cea15dac8a730bf0f9fa93825e}{%
+           family={Schulte},
+           familyi={S\bibinitperiod},
+           given={Egon},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media {LLC}}%
+      }
+      \strng{namehash}{1032ae58ce04e21bb2d0d4561ab6f889}
+      \strng{fullhash}{1032ae58ce04e21bb2d0d4561ab6f889}
+      \strng{bibnamehash}{1032ae58ce04e21bb2d0d4561ab6f889}
+      \strng{authorbibnamehash}{1032ae58ce04e21bb2d0d4561ab6f889}
+      \strng{authornamehash}{1032ae58ce04e21bb2d0d4561ab6f889}
+      \strng{authorfullhash}{1032ae58ce04e21bb2d0d4561ab6f889}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Discrete {\&} Computational Geometry}
+      \field{month}{8}
+      \field{title}{The Assembly Problem for Alternating Semiregular Polytopes}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1007/s00454-019-00118-6
+      \endverb
+      \verb{file}
+      \verb :MonsonSchulte_2019_AssemblyProblemAlternating.pdf:PDF
+      \endverb
+    \endentry
+    \entry{MonsoSchul2020_UniversalAlternatingSemiregular}{article}{}
+      \name{author}{2}{}{%
+        {{hash=92abc762b99992d42bbff48863521cfd}{%
+           family={Monson},
+           familyi={M\bibinitperiod},
+           given={Barry},
+           giveni={B\bibinitperiod}}}%
+        {{hash=1b0972cea15dac8a730bf0f9fa93825e}{%
+           family={Schulte},
+           familyi={S\bibinitperiod},
+           given={Egon},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Canadian Mathematical Society}%
+      }
+      \strng{namehash}{1032ae58ce04e21bb2d0d4561ab6f889}
+      \strng{fullhash}{1032ae58ce04e21bb2d0d4561ab6f889}
+      \strng{bibnamehash}{1032ae58ce04e21bb2d0d4561ab6f889}
+      \strng{authorbibnamehash}{1032ae58ce04e21bb2d0d4561ab6f889}
+      \strng{authornamehash}{1032ae58ce04e21bb2d0d4561ab6f889}
+      \strng{authorfullhash}{1032ae58ce04e21bb2d0d4561ab6f889}
+      \field{extraname}{3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Canadian Journal of Mathematics}
+      \field{month}{2}
+      \field{title}{Universal Alternating Semiregular Polytopes}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 28}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.4153/s0008414x20000085
+      \endverb
+      \verb{file}
+      \verb :MonsonSchulte_2020_UniversalAlternatingSemiregular.pdf:PDF
+      \endverb
+    \endentry
+    \entry{MonsoSchul2022_InterlacingNumberAlternating}{article}{}
+      \name{author}{2}{}{%
+        {{hash=92abc762b99992d42bbff48863521cfd}{%
+           family={Monson},
+           familyi={M\bibinitperiod},
+           given={Barry},
+           giveni={B\bibinitperiod}}}%
+        {{hash=1b0972cea15dac8a730bf0f9fa93825e}{%
+           family={Schulte},
+           familyi={S\bibinitperiod},
+           given={Egon},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{1032ae58ce04e21bb2d0d4561ab6f889}
+      \strng{fullhash}{1032ae58ce04e21bb2d0d4561ab6f889}
+      \strng{bibnamehash}{1032ae58ce04e21bb2d0d4561ab6f889}
+      \strng{authorbibnamehash}{1032ae58ce04e21bb2d0d4561ab6f889}
+      \strng{authornamehash}{1032ae58ce04e21bb2d0d4561ab6f889}
+      \strng{authorfullhash}{1032ae58ce04e21bb2d0d4561ab6f889}
+      \field{extraname}{4}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In the classical setting, a convex polytope is said to be semiregular if its facets are regular and its symmetry group is transitive on vertices. This paper continues our study of ‘alternating’ semiregular abstract polytopes. These structures have abstract regular facets, still with combinatorial automorphism group transitive on vertices and with two kinds of regular facets occurring in an alternating fashion. Here we investigate a parameter called the interlacing number k for a compatible pair of regular n-polytopes P and Q: in what circumstances can we have k copies each of P and Q occuring in alternating fashion as the facets of a semiregular (n+1)-polytope S?}
+      \field{issn}{2590-9770}
+      \field{journaltitle}{The Art of Discrete and Applied Mathematics}
+      \field{month}{8}
+      \field{number}{3}
+      \field{title}{The interlacing number for alternating semiregular polytopes}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2022}
+      \field{volume}{5}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{\#P3.11\bibrangedash 24 pp.}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.26493/2590-9770.1406.ec5
+      \endverb
+      \verb{file}
+      \verb :MonsonSchulte_2022_InterlacingNumberAlternating.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://adam-journal.eu/index.php/ADAM/article/view/1406
+      \endverb
+      \verb{url}
+      \verb https://adam-journal.eu/index.php/ADAM/article/view/1406
+      \endverb
+      \keyw{Abstract semiregular polytopes,tail-triangle C-groups}
+    \endentry
     \entry{Montero2018_RegularPolyhedra3}{article}{}
       \name{author}{1}{}{%
         {{hash=9241c4c1a55c31e5611d15f5b37db516}{%
@@ -33,6 +1463,7 @@
       \strng{authorbibnamehash}{9241c4c1a55c31e5611d15f5b37db516}
       \strng{authornamehash}{9241c4c1a55c31e5611d15f5b37db516}
       \strng{authorfullhash}{9241c4c1a55c31e5611d15f5b37db516}
+      \field{extraname}{1}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
@@ -53,6 +1484,612 @@
       \verb :Montero_2018_RegularPolyhedra3.pdf:PDF
       \endverb
       \keyw{52B15 (51M20 52B10)}
+    \endentry
+    \entry{Montero2021_SchlaefliSymbolChiral}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9241c4c1a55c31e5611d15f5b37db516}{%
+           family={Montero},
+           familyi={M\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{9241c4c1a55c31e5611d15f5b37db516}
+      \strng{fullhash}{9241c4c1a55c31e5611d15f5b37db516}
+      \strng{bibnamehash}{9241c4c1a55c31e5611d15f5b37db516}
+      \strng{authorbibnamehash}{9241c4c1a55c31e5611d15f5b37db516}
+      \strng{authornamehash}{9241c4c1a55c31e5611d15f5b37db516}
+      \strng{authorfullhash}{9241c4c1a55c31e5611d15f5b37db516}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Given an abstract n-polytope K, an abstract (n+1)-polytope P is an extension of K if all the facets of P are isomorphic to K. A chiral polytope is a polytope with maximal rotational symmetry that does not admit any reflections. If P is a chiral extension of K, then all but the last entry of the Schläfli symbol of P are determined. In this paper we introduce some constructions of chiral extensions P of certain chiral polytopes in such a way that the last entry of the Schläfli symbol of P is arbitrarily large.}
+      \field{issn}{0012-365X}
+      \field{journaltitle}{Discrete Mathematics}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{On the {Schläfli} symbol of chiral extensions of polytopes}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2021}
+      \field{volume}{344}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{112507}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.disc.2021.112507
+      \endverb
+      \verb{file}
+      \verb :Montero_2021_SchlaefliSymbolChiral.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0012365X2100220X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0012365X2100220X
+      \endverb
+      \keyw{Abstract polytopes,Chiral polytopes,Schläfli symbol}
+    \endentry
+    \entry{MonteToled_ChiralExtensionsRegular_preprint}{unpublished}{}
+      \name{author}{2}{}{%
+        {{hash=9241c4c1a55c31e5611d15f5b37db516}{%
+           family={Montero},
+           familyi={M\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=462b52533df45cf525a525ffc07f5cef}{%
+           family={Toledo},
+           familyi={T\bibinitperiod},
+           given={Micael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{38c739cf9d64161ea452c097b29f188f}
+      \strng{fullhash}{38c739cf9d64161ea452c097b29f188f}
+      \strng{bibnamehash}{38c739cf9d64161ea452c097b29f188f}
+      \strng{authorbibnamehash}{38c739cf9d64161ea452c097b29f188f}
+      \strng{authornamehash}{38c739cf9d64161ea452c097b29f188f}
+      \strng{authorfullhash}{38c739cf9d64161ea452c097b29f188f}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract polytopes are combinatorial objects that generalise geometric objects such as convex polytopes, maps on surfaces and tilings of the space. Chiral polytopes are those abstract polytopes that admit full combinatorial rotational symmetry but do not admit reflections. In this paper we build chiral polytopes whose facets (maximal faces) are isomorphic to a prescribed regular cubic tessellation of the $n$-dimensional torus ($n \geq 2$). As a consequence, we prove that for every $d \geq 3$ there exist infinitely many chiral $d$-polytopes.}
+      \field{note}{Under review}
+      \field{title}{Chiral extensions of regular toroids}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2405.09434
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2405.09434
+      \endverb
+    \endentry
+    \entry{Noether1918_InvarianteVariationsprobleme}{article}{}
+      \name{author}{1}{}{%
+        {{hash=dc49c9411a2dd7c254f0a041b3852527}{%
+           family={Noether},
+           familyi={N\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {deu}%
+      }
+      \strng{namehash}{dc49c9411a2dd7c254f0a041b3852527}
+      \strng{fullhash}{dc49c9411a2dd7c254f0a041b3852527}
+      \strng{bibnamehash}{dc49c9411a2dd7c254f0a041b3852527}
+      \strng{authorbibnamehash}{dc49c9411a2dd7c254f0a041b3852527}
+      \strng{authornamehash}{dc49c9411a2dd7c254f0a041b3852527}
+      \strng{authorfullhash}{dc49c9411a2dd7c254f0a041b3852527}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen, Mathematisch-Physikalische Klasse}
+      \field{title}{Invariante {Variationsprobleme}}
+      \field{urlday}{11}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{volume}{1918}
+      \field{year}{1918}
+      \field{urldateera}{ce}
+      \field{pages}{235\bibrangedash 257}
+      \range{pages}{23}
+      \verb{urlraw}
+      \verb https://eudml.org/doc/59024
+      \endverb
+      \verb{url}
+      \verb https://eudml.org/doc/59024
+      \endverb
+    \endentry
+    \entry{Pellicer2009_ExtensionsRegularPolytopes}{article}{}
+      \name{author}{1}{}{%
+        {{hash=693efa4ca517aac81687c7c7249e9ae4}{%
+           family={Pellicer},
+           familyi={P\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{693efa4ca517aac81687c7c7249e9ae4}
+      \strng{fullhash}{693efa4ca517aac81687c7c7249e9ae4}
+      \strng{bibnamehash}{693efa4ca517aac81687c7c7249e9ae4}
+      \strng{authorbibnamehash}{693efa4ca517aac81687c7c7249e9ae4}
+      \strng{authornamehash}{693efa4ca517aac81687c7c7249e9ae4}
+      \strng{authorfullhash}{693efa4ca517aac81687c7c7249e9ae4}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0097-3165}
+      \field{journaltitle}{J. Combin. Theory Ser. A}
+      \field{number}{2}
+      \field{title}{Extensions of regular polytopes with preassigned {S}chläfli symbol}
+      \field{volume}{116}
+      \field{year}{2009}
+      \field{pages}{303\bibrangedash 313}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.jcta.2008.06.004
+      \endverb
+      \verb{file}
+      \verb :Pellicer_2009_ExtensionsRegularPolytopes.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.jcta.2008.06.004
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.jcta.2008.06.004
+      \endverb
+    \endentry
+    \entry{Pellicer2010_ConstructionHigherRank}{article}{}
+      \name{author}{1}{}{%
+        {{hash=693efa4ca517aac81687c7c7249e9ae4}{%
+           family={Pellicer},
+           familyi={P\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{693efa4ca517aac81687c7c7249e9ae4}
+      \strng{fullhash}{693efa4ca517aac81687c7c7249e9ae4}
+      \strng{bibnamehash}{693efa4ca517aac81687c7c7249e9ae4}
+      \strng{authorbibnamehash}{693efa4ca517aac81687c7c7249e9ae4}
+      \strng{authornamehash}{693efa4ca517aac81687c7c7249e9ae4}
+      \strng{authorfullhash}{693efa4ca517aac81687c7c7249e9ae4}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0012-365X}
+      \field{journaltitle}{Discrete Math.}
+      \field{number}{6-7}
+      \field{title}{A construction of higher rank chiral polytopes}
+      \field{volume}{310}
+      \field{year}{2010}
+      \field{pages}{1222\bibrangedash 1237}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.disc.2009.11.034
+      \endverb
+      \verb{file}
+      \verb :Pellicer_2010_ConstructionHigherRank.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.disc.2009.11.034
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.disc.2009.11.034
+      \endverb
+    \endentry
+    \entry{Pellicer2010_ExtensionsDuallyBipartite}{article}{}
+      \name{author}{1}{}{%
+        {{hash=693efa4ca517aac81687c7c7249e9ae4}{%
+           family={Pellicer},
+           familyi={P\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{693efa4ca517aac81687c7c7249e9ae4}
+      \strng{fullhash}{693efa4ca517aac81687c7c7249e9ae4}
+      \strng{bibnamehash}{693efa4ca517aac81687c7c7249e9ae4}
+      \strng{authorbibnamehash}{693efa4ca517aac81687c7c7249e9ae4}
+      \strng{authornamehash}{693efa4ca517aac81687c7c7249e9ae4}
+      \strng{authorfullhash}{693efa4ca517aac81687c7c7249e9ae4}
+      \field{extraname}{3}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0012-365X}
+      \field{journaltitle}{Discrete Math.}
+      \field{number}{12}
+      \field{title}{Extensions of dually bipartite regular polytopes}
+      \field{volume}{310}
+      \field{year}{2010}
+      \field{pages}{1702\bibrangedash 1707}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.disc.2009.11.023
+      \endverb
+      \verb{file}
+      \verb :Pellicer_2010_ExtensionsDuallyBipartite.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.disc.2009.11.023
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.disc.2009.11.023
+      \endverb
+    \endentry
+    \entry{PellPotTol2019_ExistenceResultTwo}{article}{}
+      \name{author}{3}{}{%
+        {{hash=693efa4ca517aac81687c7c7249e9ae4}{%
+           family={Pellicer},
+           familyi={P\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=343530cffd906a0947b43ca80eb84f68}{%
+           family={Potočnik},
+           familyi={P\bibinitperiod},
+           given={Primož},
+           giveni={P\bibinitperiod}}}%
+        {{hash=462b52533df45cf525a525ffc07f5cef}{%
+           family={Toledo},
+           familyi={T\bibinitperiod},
+           given={Micael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{ce704ff317c5e258c93e251316ca0732}
+      \strng{fullhash}{ce704ff317c5e258c93e251316ca0732}
+      \strng{bibnamehash}{ce704ff317c5e258c93e251316ca0732}
+      \strng{authorbibnamehash}{ce704ff317c5e258c93e251316ca0732}
+      \strng{authornamehash}{ce704ff317c5e258c93e251316ca0732}
+      \strng{authorfullhash}{ce704ff317c5e258c93e251316ca0732}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Combinatorial Theory, Series A}
+      \field{month}{8}
+      \field{title}{An existence result on two-orbit maniplexes}
+      \field{volume}{166}
+      \field{year}{2019}
+      \field{pages}{226\bibrangedash 253}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1016/j.jcta.2019.02.014
+      \endverb
+      \verb{file}
+      \verb :PellicerPotocnikToledo_2019_ExistenceResultTwo.pdf:PDF
+      \endverb
+    \endentry
+    \entry{PotocSpiga2019_LiftingPrescribedGroup}{article}{}
+      \name{author}{2}{}{%
+        {{hash=888ea47ae47fe797a7f29fa9c5abd5d5}{%
+           family={Potočnik},
+           familyi={P\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=931a69d28fe0708076e4a6a54f34d57b}{%
+           family={Spiga},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f618fb1a20feae30f83532450a9efa0}
+      \strng{fullhash}{2f618fb1a20feae30f83532450a9efa0}
+      \strng{bibnamehash}{2f618fb1a20feae30f83532450a9efa0}
+      \strng{authorbibnamehash}{2f618fb1a20feae30f83532450a9efa0}
+      \strng{authornamehash}{2f618fb1a20feae30f83532450a9efa0}
+      \strng{authorfullhash}{2f618fb1a20feae30f83532450a9efa0}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proc. Amer. Math. Soc}
+      \field{title}{Lifting a prescribed group of automorphisms of graphs}
+      \field{volume}{147}
+      \field{year}{2019}
+      \field{pages}{3787\bibrangedash 3796}
+      \range{pages}{10}
+    \endentry
+    \entry{Potocnik2014_CensusChiralMaps}{online}{}
+      \name{author}{1}{}{%
+        {{hash=343530cffd906a0947b43ca80eb84f68}{%
+           family={Potočnik},
+           familyi={P\bibinitperiod},
+           given={Primož},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{343530cffd906a0947b43ca80eb84f68}
+      \strng{fullhash}{343530cffd906a0947b43ca80eb84f68}
+      \strng{bibnamehash}{343530cffd906a0947b43ca80eb84f68}
+      \strng{authorbibnamehash}{343530cffd906a0947b43ca80eb84f68}
+      \strng{authornamehash}{343530cffd906a0947b43ca80eb84f68}
+      \strng{authorfullhash}{343530cffd906a0947b43ca80eb84f68}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Census of chiral maps}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://www.fmf.uni-lj.si/~potocnik/work.htm
+      \endverb
+      \verb{url}
+      \verb https://www.fmf.uni-lj.si/~potocnik/work.htm
+      \endverb
+    \endentry
+    \entry{Schulte1983_ArrangingRegularIncidence}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1b0972cea15dac8a730bf0f9fa93825e}{%
+           family={Schulte},
+           familyi={S\bibinitperiod},
+           given={Egon},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{1b0972cea15dac8a730bf0f9fa93825e}
+      \strng{fullhash}{1b0972cea15dac8a730bf0f9fa93825e}
+      \strng{bibnamehash}{1b0972cea15dac8a730bf0f9fa93825e}
+      \strng{authorbibnamehash}{1b0972cea15dac8a730bf0f9fa93825e}
+      \strng{authornamehash}{1b0972cea15dac8a730bf0f9fa93825e}
+      \strng{authorfullhash}{1b0972cea15dac8a730bf0f9fa93825e}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0195-6698}
+      \field{journaltitle}{European J. Combin.}
+      \field{number}{4}
+      \field{title}{On arranging regular incidence-complexes as faces of higher-dimensional ones}
+      \field{volume}{4}
+      \field{year}{1983}
+      \field{pages}{375\bibrangedash 384}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/S0195-6698(83)80035-3
+      \endverb
+      \verb{file}
+      \verb :Schulte_1983_ArrangingRegularIncidence.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/S0195-6698(83)80035-3
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/S0195-6698(83)80035-3
+      \endverb
+    \endentry
+    \entry{Schulte1985_ExtensionsRegularComplexes}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=1b0972cea15dac8a730bf0f9fa93825e}{%
+           family={Schulte},
+           familyi={S\bibinitperiod},
+           given={Egon},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Dekker, New York}%
+      }
+      \strng{namehash}{1b0972cea15dac8a730bf0f9fa93825e}
+      \strng{fullhash}{1b0972cea15dac8a730bf0f9fa93825e}
+      \strng{bibnamehash}{1b0972cea15dac8a730bf0f9fa93825e}
+      \strng{authorbibnamehash}{1b0972cea15dac8a730bf0f9fa93825e}
+      \strng{authornamehash}{1b0972cea15dac8a730bf0f9fa93825e}
+      \strng{authorfullhash}{1b0972cea15dac8a730bf0f9fa93825e}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Finite geometries ({W}innipeg, {M}an., 1984)}
+      \field{series}{Lecture Notes in Pure and Appl. Math.}
+      \field{title}{Extensions of regular complexes}
+      \field{volume}{103}
+      \field{year}{1985}
+      \field{pages}{289\bibrangedash 305}
+      \range{pages}{17}
+    \endentry
+    \entry{Schulte1990_ClassAbstractPolytopes}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1b0972cea15dac8a730bf0f9fa93825e}{%
+           family={Schulte},
+           familyi={S\bibinitperiod},
+           given={Egon},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{1b0972cea15dac8a730bf0f9fa93825e}
+      \strng{fullhash}{1b0972cea15dac8a730bf0f9fa93825e}
+      \strng{bibnamehash}{1b0972cea15dac8a730bf0f9fa93825e}
+      \strng{authorbibnamehash}{1b0972cea15dac8a730bf0f9fa93825e}
+      \strng{authornamehash}{1b0972cea15dac8a730bf0f9fa93825e}
+      \strng{authorfullhash}{1b0972cea15dac8a730bf0f9fa93825e}
+      \field{extraname}{3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0012-365X}
+      \field{journaltitle}{Discrete Mathematics}
+      \field{number}{3}
+      \field{title}{On a class of abstract polytopes constructed from binary codes}
+      \field{volume}{84}
+      \field{year}{1990}
+      \field{pages}{295\bibrangedash 301}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/0012-365X(90)90134-4
+      \endverb
+      \verb{file}
+      \verb :Schulte_1990_ClassAbstractPolytopes.pdf:PDF
+      \endverb
+      \keyw{52B15 (94B25)}
+    \endentry
+    \entry{SchulWeiss1991_ChiralPolytopes}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=1b0972cea15dac8a730bf0f9fa93825e}{%
+           family={Schulte},
+           familyi={S\bibinitperiod},
+           given={Egon},
+           giveni={E\bibinitperiod}}}%
+        {{hash=c9e580901b818b424b763c860f86ca45}{%
+           family={Weiss},
+           familyi={W\bibinitperiod},
+           given={Asia\bibnamedelima Ivić},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Amer. Math. Soc., Providence, RI}%
+      }
+      \strng{namehash}{4b0049f13d6bba7b0feaa7688968212c}
+      \strng{fullhash}{4b0049f13d6bba7b0feaa7688968212c}
+      \strng{bibnamehash}{4b0049f13d6bba7b0feaa7688968212c}
+      \strng{authorbibnamehash}{4b0049f13d6bba7b0feaa7688968212c}
+      \strng{authornamehash}{4b0049f13d6bba7b0feaa7688968212c}
+      \strng{authorfullhash}{4b0049f13d6bba7b0feaa7688968212c}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Applied geometry and discrete mathematics}
+      \field{series}{DIMACS Ser. Discrete Math. Theoret. Comput. Sci.}
+      \field{title}{Chiral polytopes}
+      \field{volume}{4}
+      \field{year}{1991}
+      \field{pages}{493\bibrangedash 516}
+      \range{pages}{24}
+      \verb{file}
+      \verb :SchulteWeiss_1991_ChiralPolytopes.pdf:PDF
+      \endverb
+    \endentry
+    \entry{SchulWeiss1995_FreeExtensionsChiral}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1b0972cea15dac8a730bf0f9fa93825e}{%
+           family={Schulte},
+           familyi={S\bibinitperiod},
+           given={Egon},
+           giveni={E\bibinitperiod}}}%
+        {{hash=c9e580901b818b424b763c860f86ca45}{%
+           family={Weiss},
+           familyi={W\bibinitperiod},
+           given={Asia\bibnamedelima Ivić},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b0049f13d6bba7b0feaa7688968212c}
+      \strng{fullhash}{4b0049f13d6bba7b0feaa7688968212c}
+      \strng{bibnamehash}{4b0049f13d6bba7b0feaa7688968212c}
+      \strng{authorbibnamehash}{4b0049f13d6bba7b0feaa7688968212c}
+      \strng{authornamehash}{4b0049f13d6bba7b0feaa7688968212c}
+      \strng{authorfullhash}{4b0049f13d6bba7b0feaa7688968212c}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0008-414X}
+      \field{journaltitle}{Canad. J. Math.}
+      \field{number}{3}
+      \field{title}{Free extensions of chiral polytopes}
+      \field{volume}{47}
+      \field{year}{1995}
+      \field{pages}{641\bibrangedash 654}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.4153/CJM-1995-033-7
+      \endverb
+      \verb{file}
+      \verb :SchulteWeiss_1995_FreeExtensionsChiral.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.4153/CJM-1995-033-7
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.4153/CJM-1995-033-7
+      \endverb
+    \endentry
+    \entry{Thurston1982_ThreeDimensionalManifolds}{article}{}
+      \name{author}{1}{}{%
+        {{hash=eb0d98636e5799a76cfb9b14a6130ff0}{%
+           family={Thurston},
+           familyi={T\bibinitperiod},
+           given={William\bibnamedelima P.},
+           giveni={W\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{eb0d98636e5799a76cfb9b14a6130ff0}
+      \strng{fullhash}{eb0d98636e5799a76cfb9b14a6130ff0}
+      \strng{bibnamehash}{eb0d98636e5799a76cfb9b14a6130ff0}
+      \strng{authorbibnamehash}{eb0d98636e5799a76cfb9b14a6130ff0}
+      \strng{authornamehash}{eb0d98636e5799a76cfb9b14a6130ff0}
+      \strng{authorfullhash}{eb0d98636e5799a76cfb9b14a6130ff0}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Advancing research. Creating connections.}
+      \field{issn}{0273-0979, 1088-9485}
+      \field{journaltitle}{Bulletin of the American Mathematical Society}
+      \field{number}{3}
+      \field{title}{Three dimensional manifolds, {Kleinian} groups and hyperbolic geometry}
+      \field{urlday}{13}
+      \field{urlmonth}{10}
+      \field{urlyear}{2024}
+      \field{volume}{6}
+      \field{year}{1982}
+      \field{urldateera}{ce}
+      \field{pages}{357\bibrangedash 381}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1090/S0273-0979-1982-15003-0
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://www.ams.org/bull/1982-06-03/S0273-0979-1982-15003-0/S0273-0979-1982-15003-0.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ams.org/bull/1982-06-03/S0273-0979-1982-15003-0/
+      \endverb
+      \verb{url}
+      \verb https://www.ams.org/bull/1982-06-03/S0273-0979-1982-15003-0/
+      \endverb
+    \endentry
+    \entry{Tutte1959_SymmetryCubicGraphs}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d3728ffa47f0759a65806a4bfdc1a62b}{%
+           family={Tutte},
+           familyi={T\bibinitperiod},
+           given={W.\bibnamedelimi T.},
+           giveni={W\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{d3728ffa47f0759a65806a4bfdc1a62b}
+      \strng{fullhash}{d3728ffa47f0759a65806a4bfdc1a62b}
+      \strng{bibnamehash}{d3728ffa47f0759a65806a4bfdc1a62b}
+      \strng{authorbibnamehash}{d3728ffa47f0759a65806a4bfdc1a62b}
+      \strng{authornamehash}{d3728ffa47f0759a65806a4bfdc1a62b}
+      \strng{authorfullhash}{d3728ffa47f0759a65806a4bfdc1a62b}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Canadian Journal of Mathematics}
+      \field{title}{On the {S}ymmetry of {C}ubic {G}raphs}
+      \field{volume}{11}
+      \field{year}{1959}
+      \field{pages}{621\bibrangedash 624}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.4153/CJM-1959-057-2
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.28)  30 SEP 2024 16:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.28)  13 OCT 2024 17:27
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1057,36 +1057,54 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 \c@question=\count505
 \c@problem=\count506
 \c@obj=\count507
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+Package cleveref Info: `amsthm' support loaded on input line 3026.
+Package cleveref Info: always capitalise cross-reference names on input line 7830.
+Package cleveref Info: include cross-reference names in hyperlinks on input line 7836.
+Package cleveref Info: always capitalise cross-reference names on input line 7852.
+Package cleveref Info: include cross-reference names in hyperlinks on input line 7852.
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 169.
+Package hyperref Info: Option `colorlinks' set `true' on input line 174.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 194.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 199.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (./erc2025_B1_montero.aux)
 \openout1 = `erc2025_B1_montero.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 194.
-LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 199.
+LaTeX Font Info:    ... okay on input line 199.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 199.
+LaTeX Font Info:    ... okay on input line 199.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 199.
+LaTeX Font Info:    ... okay on input line 199.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 199.
+LaTeX Font Info:    ... okay on input line 199.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 199.
+LaTeX Font Info:    ... okay on input line 199.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 199.
+LaTeX Font Info:    ... okay on input line 199.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 199.
+LaTeX Font Info:    ... okay on input line 199.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 199.
+LaTeX Font Info:    ... okay on input line 199.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 199.
+LaTeX Font Info:    ... okay on input line 199.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1137,11 +1155,17 @@ LaTeX Font Info:    ... okay on input line 194.
 \everyMPtoPDFconversion=\toks76
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 194.
+Package hyperref Info: Link coloring ON on input line 199.
  (./erc2025_B1_montero.out) (./erc2025_B1_montero.out)
 \@outlinefile=\write6
 \openout6 = `erc2025_B1_montero.out'.
@@ -1179,35 +1203,35 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'erc2025_B1_montero.bbl' found.
  (./erc2025_B1_montero.bbl)
-Package biblatex Info: Reference section=0 on input line 194.
-Package biblatex Info: Reference segment=0 on input line 194.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 218.
+Package biblatex Info: Reference section=0 on input line 199.
+Package biblatex Info: Reference segment=0 on input line 199.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 223.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 218.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 223.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 218.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 223.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 218.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 223.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 218.
+(Font)              <14.4> on input line 223.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 218.
+(Font)              <10> on input line 223.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 218.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 218.
+(Font)              <7> on input line 223.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 223.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 218.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 223.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (./B1_cover.tex
@@ -1216,20 +1240,40 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3.
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )) (./B1_proposalSummary.tex) [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}
 
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] (./B1_extSyn.tex)
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 224.
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] (./B1_extSyn.tex [2
+
+]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 52.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 52.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 52.
+ [3{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}] [4] [5]
+Underfull \hbox (badness 10000) in alignment at lines 230--230
+[][][][] 
+ []
+
+)
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 229.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 224.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 224.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 224.
- [2
+) [6]
+Overfull \hbox (38.97427pt too wide) in paragraph at lines 230--230
+\T1/lmr/m/n/12 15824. 2011. \T1/lmr/m/sc/12 url\T1/lmr/m/n/12 : [][]$\T1/lmtt/m/n/12 https : / / www . math . auckland . ac . nz / ~conder / RegularOrientableMaps301 .
+ []
 
-] (./B1_cv.tex
+
+Overfull \hbox (22.2415pt too wide) in paragraph at lines 230--230
+\T1/lmr/m/n/12 2012. \T1/lmr/m/sc/12 url\T1/lmr/m/n/12 : [][]$\T1/lmtt/m/n/12 https : / / www . math . auckland . ac . nz / ~conder / RotaryMapsWithUpTo1000Edges .
+ []
+
+[7] [8]
+Overfull \hbox (7.58287pt too wide) in paragraph at lines 230--230
+\T1/lmr/m/it/12 der Wis-senschaften zu Göt-tin-gen, Mathematisch-Physikalische Klasse \T1/lmr/m/n/12 1918 (1918), pp. 235^^U
+ []
+
+[9] (./B1_cv.tex
 Underfull \hbox (badness 1014) in paragraph at lines 18--18
 []|\T1/lmr/bx/n/12 Ph.D. (Math-e-mat-ics)\T1/lmr/m/n/12 , \T1/lmr/m/sl/12 Cen-tro de Cien-cias Matem-at-i-cas, Na-tional Au-
  []
@@ -1271,11 +1315,78 @@ Overfull \hbox (14.50291pt too wide) in paragraph at lines 48--48
 [] 
  []
 
-) [3
+[10
 
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}] [4] 
+]
+Overfull \hbox (14.50291pt too wide) in paragraph at lines 94--94
+[] 
+ []
+
+
+Overfull \hbox (14.50291pt too wide) in paragraph at lines 115--115
+[] 
+ []
+
+
+Overfull \hbox (14.50291pt too wide) in paragraph at lines 134--134
+[] 
+ []
+
+
+Overfull \hbox (14.50291pt too wide) in paragraph at lines 153--153
+[] 
+ []
+
+
+Overfull \hbox (14.50291pt too wide) in paragraph at lines 198--198
+[] 
+ []
+
+[11]
+Underfull \hbox (badness 1067) in paragraph at lines 217--217
+[]|\T1/lmr/bx/n/12 Mexican Math-e-mat-i-cal Olympiad in Mi-choa-can\T1/lmr/m/n/12 ,  More-lia, Mich.,
+ []
+
+
+Overfull \hbox (14.50291pt too wide) in paragraph at lines 217--217
+[] 
+ []
+
+
+Overfull \hbox (14.50291pt too wide) in paragraph at lines 236--236
+[] 
+ []
+
+
+Overfull \hbox (14.50291pt too wide) in paragraph at lines 255--255
+[] 
+ []
+
+
+Overfull \hbox (14.50291pt too wide) in paragraph at lines 274--274
+[] 
+ []
+
+
+Overfull \hbox (14.50291pt too wide) in paragraph at lines 293--293
+[] 
+ []
+
+
+Overfull \hbox (14.50291pt too wide) in paragraph at lines 314--314
+[] 
+ []
+
+
+Overfull \hbox (14.50291pt too wide) in paragraph at lines 333--333
+[] 
+ []
+
+) [12] 
 enddocument/afterlastpage: lastpage setting LastPage.
-(./erc2025_B1_montero.aux)
+(./erc2025_B1_montero.aux
+Package cleveref Info: loaded `english' language definitions on input line 19.
+)
 Package rerunfilecheck Info: File `erc2025_B1_montero.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'erc2025_B1_montero.run.xml'.
@@ -1283,18 +1394,18 @@ Package logreq Info: Writing requests to 'erc2025_B1_montero.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45766 strings out of 476025
- 1033640 string characters out of 5790017
- 1925805 words of memory out of 5000000
- 65427 multiletter control sequences out of 15000+600000
- 578722 words of font info for 86 fonts, out of 8000000 for 9000
+ 47915 strings out of 476025
+ 1094931 string characters out of 5790017
+ 1979459 words of memory out of 5000000
+ 67483 multiletter control sequences out of 15000+600000
+ 587256 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,14n,94p,1202b,1787s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on erc2025_B1_montero.pdf (4 pages, 198873 bytes).
+ 99i,14n,94p,1652b,2101s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on erc2025_B1_montero.pdf (12 pages, 341611 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
+ 404 PDF objects out of 1000 (max. 8388607)
+ 335 compressed objects within 4 object streams
+ 88 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
