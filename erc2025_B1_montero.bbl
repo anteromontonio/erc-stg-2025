@@ -394,6 +394,41 @@
       \verb :Coxeter_1970_TwistedHoneycombs.pdf:PDF
       \endverb
     \endentry
+    \entry{CunnMixWil2022_RampResearchAssistant}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=f306eeab0aa037561d23b2e6355fc605}{%
+           family={Cunningham},
+           familyi={C\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=104f7c868f783e79e6869dfc08472faf}{%
+           family={Mixer},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f4a9e8950eb282c0400166e00fe5a66c}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f6551aadc4f267f7367d10cc8afcfbc5}
+      \strng{fullhash}{f6551aadc4f267f7367d10cc8afcfbc5}
+      \strng{bibnamehash}{f6551aadc4f267f7367d10cc8afcfbc5}
+      \strng{authorbibnamehash}{f6551aadc4f267f7367d10cc8afcfbc5}
+      \strng{authornamehash}{f6551aadc4f267f7367d10cc8afcfbc5}
+      \strng{authorfullhash}{f6551aadc4f267f7367d10cc8afcfbc5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\href {https://github.com/SupposeNot/RAMP} {\texttt{https://github.com/}\discretionary {}{}{}\texttt{SupposeNot/}\discretionary {}{}{}\texttt{RAMP}}}
+      \field{month}{7}
+      \field{note}{GAP package}
+      \field{title}{{RAMP}, The Research Assistant for Maniplexes and Polytopes, {V}ersion 0.7.01}
+      \field{year}{2022}
+      \keyw{abstract polytopes; maniplex}
+    \endentry
     \entry{CunDelHuTo2015_SymmetryTypeGraphs}{article}{}
       \name{author}{4}{}{%
         {{hash=7b38ed4a0824452e2e3d87a11ffa212e}{%
@@ -668,56 +703,6 @@
       \endverb
       \verb{url}
       \verb https://leemans.dimitri.web.ulb.be/CHIRAL/index.html
-      \endverb
-    \endentry
-    \entry{HubarMocha2023_AllPolytopesAre}{article}{}
-      \name{author}{2}{}{%
-        {{hash=aa4399f67818e106d6217fdd49ef3372}{%
-           family={Hubard},
-           familyi={H\bibinitperiod},
-           given={Isabel},
-           giveni={I\bibinitperiod}}}%
-        {{hash=7aa811d653badadb8ed6ca9046da2e26}{%
-           family={Mochán},
-           familyi={M\bibinitperiod},
-           given={Elías},
-           giveni={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{c33735ddb4d545087f9dbe301ec841bf}
-      \strng{fullhash}{c33735ddb4d545087f9dbe301ec841bf}
-      \strng{bibnamehash}{c33735ddb4d545087f9dbe301ec841bf}
-      \strng{authorbibnamehash}{c33735ddb4d545087f9dbe301ec841bf}
-      \strng{authornamehash}{c33735ddb4d545087f9dbe301ec841bf}
-      \strng{authorfullhash}{c33735ddb4d545087f9dbe301ec841bf}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{polytopes generalize the classical notion of convex polytopes to more general combinatorial structures. The most studied ones are regular and chiral polytopes, as it is well-known, they can be constructed as coset geometries from their automorphism groups. This is also known to be true for 2- and 3-orbit 3-polytopes. In this paper we show that every abstract n-polytope can be constructed as a coset geometry. This construction is done by giving a characterization, in terms of generators, relations and intersection conditions, of the automorphism group of a k-orbit polytope with given symmetry type graph. Furthermore, we use these results to show that for all k≠2, there exist k-orbit n-polytopes with Boolean automorphism groups, for all n≥3.}
-      \field{issn}{0195-6698}
-      \field{journaltitle}{European Journal of Combinatorics}
-      \field{month}{10}
-      \field{shorttitle}{All polytopes are coset geometries}
-      \field{title}{All polytopes are coset geometries: {Characterizing} automorphism groups of k-orbit abstract polytopes}
-      \field{urlday}{10}
-      \field{urlmonth}{1}
-      \field{urlyear}{2024}
-      \field{volume}{113}
-      \field{year}{2023}
-      \field{urldateera}{ce}
-      \field{pages}{103746}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1016/j.ejc.2023.103746
-      \endverb
-      \verb{file}
-      \verb ScienceDirect Full Text PDF:https\://www.sciencedirect.com/science/article/abs/pii/S019566982300063X/pdfft?isDTMRedir=true&download=true:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S019566982300063X
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S019566982300063X
       \endverb
     \endentry
     \entry{HubaMocMon2023_VoltageOperationsManiplexes}{article}{}

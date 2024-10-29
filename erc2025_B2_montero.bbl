@@ -548,6 +548,41 @@
       \verb :Coxeter_1991_RegularComplexPolytopes.pdf:PDF
       \endverb
     \endentry
+    \entry{CunnMixWil2022_RampResearchAssistant}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=f306eeab0aa037561d23b2e6355fc605}{%
+           family={Cunningham},
+           familyi={C\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=104f7c868f783e79e6869dfc08472faf}{%
+           family={Mixer},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f4a9e8950eb282c0400166e00fe5a66c}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f6551aadc4f267f7367d10cc8afcfbc5}
+      \strng{fullhash}{f6551aadc4f267f7367d10cc8afcfbc5}
+      \strng{bibnamehash}{f6551aadc4f267f7367d10cc8afcfbc5}
+      \strng{authorbibnamehash}{f6551aadc4f267f7367d10cc8afcfbc5}
+      \strng{authornamehash}{f6551aadc4f267f7367d10cc8afcfbc5}
+      \strng{authorfullhash}{f6551aadc4f267f7367d10cc8afcfbc5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\href {https://github.com/SupposeNot/RAMP} {\texttt{https://github.com/}\discretionary {}{}{}\texttt{SupposeNot/}\discretionary {}{}{}\texttt{RAMP}}}
+      \field{month}{7}
+      \field{note}{GAP package}
+      \field{title}{{RAMP}, The Research Assistant for Maniplexes and Polytopes, {V}ersion 0.7.01}
+      \field{year}{2022}
+      \keyw{abstract polytopes; maniplex}
+    \endentry
     \entry{Cunningham2017_NonFlatRegular}{article}{}
       \name{author}{1}{}{%
         {{hash=7b38ed4a0824452e2e3d87a11ffa212e}{%

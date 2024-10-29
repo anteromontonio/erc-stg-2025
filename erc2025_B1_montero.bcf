@@ -2377,23 +2377,22 @@
     <bcf:citekey order="11" intorder="1">CondHubORe2024_ConstructionChiralPolytopes</bcf:citekey>
     <bcf:citekey order="12" intorder="1">MonteToled_ChiralExtensionsRegular_preprint</bcf:citekey>
     <bcf:citekey order="13" intorder="1">CunDelHuTo2015_SymmetryTypeGraphs</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">HubaMocMon2023_VoltageOperationsManiplexes</bcf:citekey>
-    <bcf:citekey order="14" intorder="2">HubarMocha2023_AllPolytopesAre</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">CunniPelli2018_OpenProblems$k$</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">PellPotTol2019_ExistenceResultTwo</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">Mochan2024_Polytopality2Orbit</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">CunniPelli2018_OpenProblems$k$</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">Pellicer2010_ExtensionsDuallyBipartite</bcf:citekey>
-    <bcf:citekey order="19" intorder="2">Pellicer2009_ExtensionsRegularPolytopes</bcf:citekey>
-    <bcf:citekey order="19" intorder="3">Schulte1985_ExtensionsRegularComplexes</bcf:citekey>
-    <bcf:citekey order="19" intorder="4">Schulte1983_ArrangingRegularIncidence</bcf:citekey>
-    <bcf:citekey order="19" intorder="5">Schulte1990_ClassAbstractPolytopes</bcf:citekey>
-    <bcf:citekey order="19" intorder="6">Danzer1984_RegularIncidenceComplexes</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">SchulWeiss1995_FreeExtensionsChiral</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">CunniPelli2014_ChiralExtensionsChiral</bcf:citekey>
-    <bcf:citekey order="21" intorder="2">Montero2021_SchlaefliSymbolChiral</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">CondHubORe2024_ConstructionChiralPolytopes</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">MonteToled_ChiralExtensionsRegular_preprint</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">CunniPelli2018_OpenProblems$k$</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">PellPotTol2019_ExistenceResultTwo</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">Mochan2024_Polytopality2Orbit</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">CunniPelli2018_OpenProblems$k$</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">Pellicer2010_ExtensionsDuallyBipartite</bcf:citekey>
+    <bcf:citekey order="18" intorder="2">Pellicer2009_ExtensionsRegularPolytopes</bcf:citekey>
+    <bcf:citekey order="18" intorder="3">Schulte1985_ExtensionsRegularComplexes</bcf:citekey>
+    <bcf:citekey order="18" intorder="4">Schulte1983_ArrangingRegularIncidence</bcf:citekey>
+    <bcf:citekey order="18" intorder="5">Schulte1990_ClassAbstractPolytopes</bcf:citekey>
+    <bcf:citekey order="18" intorder="6">Danzer1984_RegularIncidenceComplexes</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">SchulWeiss1995_FreeExtensionsChiral</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">CunniPelli2014_ChiralExtensionsChiral</bcf:citekey>
+    <bcf:citekey order="20" intorder="2">Montero2021_SchlaefliSymbolChiral</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">CondHubORe2024_ConstructionChiralPolytopes</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">MonteToled_ChiralExtensionsRegular_preprint</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">Montero2021_SchlaefliSymbolChiral</bcf:citekey>
     <bcf:citekey order="24" intorder="1">MonsoSchul2022_InterlacingNumberAlternating</bcf:citekey>
     <bcf:citekey order="24" intorder="2">MonsoSchul2020_UniversalAlternatingSemiregular</bcf:citekey>
     <bcf:citekey order="24" intorder="3">MonsoSchul2019_AssemblyProblemAlternating</bcf:citekey>
@@ -2421,17 +2420,18 @@
     <bcf:citekey order="49" intorder="1">Conder2012_ChiralPolytopes2000</bcf:citekey>
     <bcf:citekey order="50" intorder="1">LeLaCoMiMu_AtlasPolytopesSmall</bcf:citekey>
     <bcf:citekey order="51" intorder="1">HartHubLee_AtlasChiralPolytopes</bcf:citekey>
-    <bcf:citekey order="52" intorder="1">MonteToled_ChiralExtensionsRegular_preprint</bcf:citekey>
-    <bcf:citekey order="53" intorder="1">CondHubORe2024_ConstructionChiralPolytopes</bcf:citekey>
-    <bcf:citekey order="54" intorder="1">HubaMocMon2023_VoltageOperationsManiplexes</bcf:citekey>
-    <bcf:citekey order="54" intorder="2">HubaMocMon_SymmetriesVoltageOperations_preprint</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">CunnMixWil2022_RampResearchAssistant</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">MonteToled_ChiralExtensionsRegular_preprint</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">CondHubORe2024_ConstructionChiralPolytopes</bcf:citekey>
     <bcf:citekey order="55" intorder="1">HubaMocMon2023_VoltageOperationsManiplexes</bcf:citekey>
-    <bcf:citekey order="56" intorder="1">HubaMocMon_SymmetriesVoltageOperations_preprint</bcf:citekey>
-    <bcf:citekey order="57" intorder="1">ColliMonte2021_EquivelarToroidsFew</bcf:citekey>
-    <bcf:citekey order="58" intorder="1">HubOrbPeWe2012_SymmetriesEquivelar4</bcf:citekey>
-    <bcf:citekey order="59" intorder="1">ColliMonte2021_EquivelarToroidsFew</bcf:citekey>
-    <bcf:citekey order="60" intorder="1">Montero2018_RegularPolyhedra3</bcf:citekey>
+    <bcf:citekey order="55" intorder="2">HubaMocMon_SymmetriesVoltageOperations_preprint</bcf:citekey>
+    <bcf:citekey order="56" intorder="1">HubaMocMon2023_VoltageOperationsManiplexes</bcf:citekey>
+    <bcf:citekey order="57" intorder="1">HubaMocMon_SymmetriesVoltageOperations_preprint</bcf:citekey>
+    <bcf:citekey order="58" intorder="1">ColliMonte2021_EquivelarToroidsFew</bcf:citekey>
+    <bcf:citekey order="59" intorder="1">HubOrbPeWe2012_SymmetriesEquivelar4</bcf:citekey>
+    <bcf:citekey order="60" intorder="1">ColliMonte2021_EquivelarToroidsFew</bcf:citekey>
     <bcf:citekey order="61" intorder="1">Montero2018_RegularPolyhedra3</bcf:citekey>
+    <bcf:citekey order="62" intorder="1">Montero2018_RegularPolyhedra3</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
